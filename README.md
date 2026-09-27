@@ -1,4 +1,28 @@
-<h1 align="center">Strata</h1>
+# Strata: Windows dual RTX 5060 Ti / 64 GiB experimental fork
+
+Local hardware, honest measured benchmarks, limitations and recovery:
+**[LOCAL-PC.md](LOCAL-PC.md)** · **[RESTORE.md](RESTORE.md)**.
+
+Measured manual Pi workload: **188.609 tok/s prefill / 38.138 tok/s decode**,
+10 requests, prompts 3394-20639 tokens, thinking included. Separate experimental
+4K lane: 346.080 / 50.920 tok/s. These are different profiles/workloads.
+Synthetic tool/edit/compaction continuity was tested at occupied ~95K context;
+organic 98K stability and cache quality equivalence remain unverified.
+
+The root is the final local vision/static-owner source snapshot; the exact
+historical deployment and guard/adapter tests live in `deployment-snapshot/`.
+The normal local BAT starts only the server and prints native timings; global
+WSL Pi supports other models and can open with Strata offline.
+
+**Experimental, not production/scientific certification.** Exact binaries are
+archived in the tagged release; model weights and credentials are excluded.
+Upstream installation instructions and advertised rates below apply to the
+original Strata, not automatically to this local profile. Original unchanged
+README: [README-UPSTREAM.md](README-UPSTREAM.md).
+
+---
+
+<h1 align="center">Strata (upstream documentation)</h1>
 
 <p align="center"><b>Run a 125-billion-parameter AI model on a normal gaming PC</b><br>
 one NVIDIA card (12-24 GB) + 64 GB of RAM · Windows or Linux · one click to install</p>

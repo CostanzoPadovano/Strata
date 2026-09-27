@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "context": 32768,
+  "mode": "smoke",
+  "config_sha256": "86cfc066c3031eb1ba9df0fccc1a638785e5a0de5a5966046daf622dda2ae9dc",
+  "source_gates_sha256": "c57dec1401fecf2a8817ee2bcfb998f80d22cf81e61c0dbc634fcffa2a88312a",
+  "result": {
+    "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\runs\\smoke3276801\\result.json",
+    "sha256": "8239c6a4d8a4dca3e41b6965be3b24ce624050bdec6274e8b758054cfeea6d08"
+  }
+}

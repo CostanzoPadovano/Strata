@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "context": 4096,
+  "source_gates_sha256": "4f3a39517bc670eb59810508a7c86e375f68d8bbc1643687a614f7be7ca8c1ce",
+  "config_sha256": "bcd1167277fe77a735982d91b5d49407773a2e0544ac066cab529c29aee21b31",
+  "bound_files": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\runs\\output-budget-4ksmoke01\\result.json",
+      "sha256": "792894e4d50aced344263b5d2d6bcc8a717cc21e5751ec73bf2e8b38d9d7bb68"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\runs\\output-budget-4ksmoke01\\probe.json",
+      "sha256": "1a8cd5fd4a5ba55ee5527b6d4c075ea7476e50b217c19c45d6e52f06cf068b90"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\runs\\output-budget-4ksmoke01\\timings.jsonl",
+      "sha256": "d721f430001d49855696fedb06d7d5c2dfd3e7730154e83849aa1dd2079331b0"
+    }
+  ]
+}

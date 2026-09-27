@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-26",
+  "scope": "isolated official stock Strata trial only",
+  "user_request": "dovremmo rimuiovere la riserva di sicurezza, capire se fuziona e ottimizzare per il mio pc",
+  "authorized_profiles": ["no-ram-reserve", "experimental-memory", "experimental-no-vram-floor"],
+  "explicit_confirmation": "Sì, prova il profilo sperimentale",
+  "confirmed_profile": {"context": 4096, "ram_reserve_gib": 0, "commit_floor_gib": 4, "job_cap_gib": 60},
+  "subsequent_vram_request": "devi rimuovere le soglie delle gpu",
+  "subsequent_vram_confirmation": "Sì, togli solo le soglie VRAM (consigliato)",
+  "confirmed_vram_profile": {"name": "experimental-no-vram-floor", "gpu_start_floor_mib": 0, "gpu_floor_mib": 0, "native_buffer_reserve_mib": 700},
+  "unchanged_guards": ["GPU temperature below80C", "commit floor4GiB", "Job cap60GiB", "timeout", "kill-on-close", "isolation"]
+}

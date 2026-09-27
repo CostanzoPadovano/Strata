@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "purpose": "expert-profile",
+  "scope": "Resident expert decode mode parity and burst timing; no main host expert arena/PLE/generation",
+  "profile_gap_ms": null,
+  "profile_chain_batch": null,
+  "limits": {
+    "ram_floor_gib": 0,
+    "commit_floor_gib": 4,
+    "job_cap_gib": 8,
+    "gpu_start_floor_mib": 0,
+    "gpu_floor_mib": 0,
+    "vram_reserve_mib": 3072
+  },
+  "executable_sha256": "8cebf0f82e239ca2dbd8834f751d1f13f0c4b854534a334225ce3ecb39e0c923",
+  "engine_executable_sha256": "72279baae1a89216809f58b6c16718b6e66328aa282449a1f34c34b5a60976bc",
+  "gates_sha256": "bbc442dc1ccea56e98fb3a87ffdc08d70d4a5fb122306e9a36cd9a7b402fcf8f",
+  "layer_ids": [
+    22,
+    28,
+    30,
+    34
+  ],
+  "payload_bytes": 4535091200,
+  "layers": 4,
+  "bursts": 64,
+  "modes": 3,
+  "devices": 2,
+  "conditions": 24,
+  "outputs": "exact",
+  "reference_bytes": 65536000,
+  "k4_fallback_exact": true,
+  "graph_replays_per_graph_condition": 256,
+  "bound_evidence": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\remote-experts-profile03\\result.json",
+      "sha256": "de784fcb74df20326759a02b91eb13548e59156d1b3586eb9ffd9bf16b58b770"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\remote-experts-profile03\\native.log",
+      "sha256": "ddc47ab0b367c12a0f4aa402403c1b6e8fe5fc7aaca94c40101efc6b4d3b3c75"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\remote-experts-profile03\\probe.json",
+      "sha256": "bc8959eaef12518335963260432092a9fcbf08a613c225a4c9ea2e7ba491933d"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\remote-experts-profile03\\command.json",
+      "sha256": "748086c5332fbcf0946f0124ba19fe599d7346530f12130c15d617c40f6deb81"
+    }
+  ]
+}

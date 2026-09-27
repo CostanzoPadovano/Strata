@@ -1,0 +1,194 @@
+{
+  "strata_sha256": "20352b54e9d0907cca6d1104b2f2a29643ec6b6f1aa6efdbd3019ddc3b5fffaf",
+  "passed": true,
+  "component_gates": [
+    {
+      "gpu": 0,
+      "name": "strata-device",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "dequant_s2_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "s2_gemv_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "shared_expert_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "gr_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "gdn_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "s2_gemv_q8_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "sampler_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "rope_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "quantize_act_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "router_top10_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "s_gemv_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "elementwise_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "bf16_gemv_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "s_gemv_q8k_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "qsa_parity",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "ple_reader_test",
+      "passed": true
+    },
+    {
+      "gpu": 0,
+      "name": "kv_q8_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "strata-device",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "dequant_s2_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "s2_gemv_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "shared_expert_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "gr_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "gdn_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "s2_gemv_q8_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "sampler_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "rope_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "quantize_act_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "router_top10_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "s_gemv_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "elementwise_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "bf16_gemv_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "s_gemv_q8k_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "qsa_parity",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "ple_reader_test",
+      "passed": true
+    },
+    {
+      "gpu": 1,
+      "name": "kv_q8_parity",
+      "passed": true
+    }
+  ],
+  "dual_gpu": true,
+  "frontend": {
+    "passed": true,
+    "golden_templates": 10,
+    "http_checks": 7,
+    "native_xhigh": true
+  },
+  "guardian": true
+}

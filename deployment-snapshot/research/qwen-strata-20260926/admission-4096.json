@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "kind": "experimental-operational-not-quality-equivalence",
+  "context": 4096,
+  "strata_sha256": "20352b54e9d0907cca6d1104b2f2a29643ec6b6f1aa6efdbd3019ddc3b5fffaf",
+  "runtime_manifest_sha256": "077559f2910a7fda5dc8653ea5a55676c0310f6b063e9a8dc9be20871cff016e",
+  "evidence": "runs\\smoke4k-cache5-host14",
+  "min_ram_free_gib": 30.118438720703125,
+  "min_commit_free_gib": 19.810523986816406,
+  "peak_job_gib": 37.206787109375,
+  "probe_sha256": "907da1022c929d359699d005fa9ed2ec18f1670d58bd79f74a7788667fed9e0d",
+  "telemetry_sha256": "bb0f2fd5ab4eb9ac21426afb21f6fc80f1dc2efa8e0d015fdb2e7c9e3225b0b6"
+}

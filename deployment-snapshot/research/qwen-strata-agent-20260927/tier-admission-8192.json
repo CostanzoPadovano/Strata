@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "context": 8192,
+  "mode": "bench",
+  "config_sha256": "81c440d19a176d53d9e72ddb2b7aa501ac48f28942389816e27f0c04488f019b",
+  "source_gates_sha256": "c57dec1401fecf2a8817ee2bcfb998f80d22cf81e61c0dbc634fcffa2a88312a",
+  "result": {
+    "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\runs\\pi8k01\\result.json",
+    "sha256": "c2778611181e850c32a5b82bc47bc5f38692ba5ef33c97befbc9e36eec2db413"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "schema": "antirez-strata/v1",
+  "source_commit": "6da1f667e86558b152ab128edf3ebf77a80a9e57",
+  "ggml_commit": "3cf03257f219afbe7334045ff7c6a06ac68c627d",
+  "mtp_commit": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+  "cuda": "13.3.73",
+  "gpu_arch": 120,
+  "cpu": "AVX2",
+  "gpu1_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "host_experts_bytes": 15030963200,
+  "gpu1_experts_bytes": 12268339200,
+  "disk_experts_bytes": 15613670400,
+  "gpu0_experts_reserved_bytes": 5365836800,
+  "gpu0_cache_budget_bytes": 5367398400,
+  "startup_commit_overhead_estimate_bytes": 25769803776,
+  "strata_sha256": "20352b54e9d0907cca6d1104b2f2a29643ec6b6f1aa6efdbd3019ddc3b5fffaf",
+  "runtime_files": [
+    {
+      "path": "build-native\\strata.exe",
+      "sha256": "20352b54e9d0907cca6d1104b2f2a29643ec6b6f1aa6efdbd3019ddc3b5fffaf"
+    },
+    {
+      "path": "guard.py",
+      "sha256": "99cb771fd77fa980239aa1a58e33422c5bda0ff0fcffa6ebd161981094adb19e"
+    },
+    {
+      "path": "server-config.json",
+      "sha256": "50e8ae7380a99a1736e8cab2f9dfd21da121a5736bccc0a5b41fc93b34c18cd6"
+    },
+    {
+      "path": "source\\serve\\frontend.py",
+      "sha256": "90b744af7c4e432de77b9fbf2955b112de392818e072b0ec7ad4333827ef2486"
+    },
+    {
+      "path": "source\\serve\\server.py",
+      "sha256": "813734a3918c7c80d92c4928aa311f0e7afa02d2a9024249060c6c4fe2a9856b"
+    },
+    {
+      "path": "source\\serve\\__init__.py",
+      "sha256": "5b38172f894574bf933b1e932a2dace1c113184f105bcd7db8718e6330f809c2"
+    },
+    {
+      "path": "source\\serve\\chat_template.jinja",
+      "sha256": "ae9644304511ef71f28e036b6f65b4c709880bc5a23b7d0b42125ec63a8c70ca"
+    },
+    {
+      "path": "source\\tools\\strata_tokenizer.py",
+      "sha256": "ef0423df0e1c77e0d5083c8e3a992151adf8361f5441565487f66e068c45c97f"
+    },
+    {
+      "path": "source\\data\\expert-profile.bin",
+      "sha256": "2504ff83d9dcacc80e503dfe02b06d139a3170b914241b69eac728009f9a1300"
+    },
+    {
+      "path": "pack-iq3\\dense.bin",
+      "sha256": "d2af3d8331e5c7a1985d1d589747230f9d56719a6d33c7cddc9ee6b81cde6b13"
+    },
+    {
+      "path": "pack-iq3\\index.txt",
+      "sha256": "1afe12b36cd2d13bf122b741fa0e81e1f751319cc3c451e54ba75524d825f148"
+    },
+    {
+      "path": "pack-iq3\\native_experts.txt",
+      "sha256": "ae28cf7a2a1c9063c4b55d6c8cf86d4d079dcddcf597f9e8697c9157d462c0ee"
+    },
+    {
+      "path": "pack-iq3\\tokenizer\\chat_template.jinja",
+      "sha256": "12827f24b742ea4e80cdc12dbcf9622227056b9f797252a3149263d4f9aaadce"
+    },
+    {
+      "path": "pack-iq3\\tokenizer\\merges.txt",
+      "sha256": "080cf95432173729d160346b7882bd2a644b07f7a3813a3eb73f4e66787bfde9"
+    },
+    {
+      "path": "pack-iq3\\tokenizer\\tokenizer.json",
+      "sha256": "87be2ac47d8bc7393b7435df6ccd276740019a393941a2585d5edce59f450c54"
+    },
+    {
+      "path": "pack-iq3\\tokenizer\\token_type.json",
+      "sha256": "5088c8c298fc06af8382ddb3b76c888703ac2634e82263b97eedcc2ad202738b"
+    },
+    {
+      "path": "pack-iq3\\tokenizer\\vocab.json",
+      "sha256": "4ba64f0332abcfb0b600b7df1537d1e836e68009d5fb7cdb77339738dc6365c4"
+    },
+    {
+      "path": "mtp\\rt\\dense.bin",
+      "sha256": "c724dc0b0822ada5d2977bf5bde821605feabaa64ea2e0045b67ca656329070a"
+    },
+    {
+      "path": "mtp\\rt\\dense.txt",
+      "sha256": "8773c81ebb0986e37fe94a8a9933e87be48b1fabc6889a0106bcdab179d1c2ac"
+    },
+    {
+      "path": "mtp\\rt\\draft_vocab.bin",
+      "sha256": "369151522226a5edaa5f12cfd1e2ae7db8f4fbdbd222f3dcf327dced9597fb25"
+    },
+    {
+      "path": "mtp\\rt\\experts.bin",
+      "sha256": "09398406be61f1f54c93861f449e48b8df0bfccbc9ec9b2b7636775a6ea9244f"
+    },
+    {
+      "path": "source\\include\\strata\\core\\dual_expert_source.hpp",
+      "sha256": "947e43ea90e677be5db29dff02c631bfd611d720588ad962e65bf34d93a76190"
+    },
+    {
+      "path": "source\\include\\strata\\core\\expert_source.hpp",
+      "sha256": "b76c01cb978fe1e490f4e23682e014c3d00b91f14afe5ffa8c4ea504fa938e41"
+    },
+    {
+      "path": "source\\include\\strata\\core\\pinned.hpp",
+      "sha256": "ab28ffd4a2c088b7b70d7d76618c5ed10406f88685693389e872d6b1248afff9"
+    },
+    {
+      "path": "source\\src\\core\\pinned.cu",
+      "sha256": "3cf5a6b36b523dc358997fef0b1fb10de7d8016e665f7e16ef23c9454e8b0f3a"
+    },
+    {
+      "path": "source\\CMakeLists.txt",
+      "sha256": "d64a1985c8f5b0fb9e3078dff73332fe317e76214e840552777b1c2f13cddb42"
+    },
+    {
+      "path": "source\\src\\core\\dual_expert_source.cpp",
+      "sha256": "bd6978fa2ea659ee2046f7feea5e56beac9074700a252c77ac2a6e714e7f106a"
+    },
+    {
+      "path": "source\\src\\core\\expert_source.cpp",
+      "sha256": "c9b9875b3da252c685b197345ee39031abd3c98c820cf4915602868cb4e8fad5"
+    },
+    {
+      "path": "source\\src\\program\\generate.cpp",
+      "sha256": "adc55ba81d5a250327c14b5a1d4381b5b11284d512c798e122178f4ca823d4e0"
+    },
+    {
+      "path": "source\\src\\prefill\\prefill.cpp",
+      "sha256": "97903d8301d65ad252ffbfe833baff2dede39d76b02fcf677a98ce587b33d701"
+    },
+    {
+      "path": "source\\include\\strata\\platform\\direct_file.hpp",
+      "sha256": "4364bbacd6e94d601e9650f8d9053f191d18eeffa466eb6d0453806c7d00484f"
+    },
+    {
+      "path": "source\\src\\platform\\direct_file.cpp",
+      "sha256": "e3b6bc531b4cc608dfcb5c900f94677f16d1309e89fa022ea9664c887d58cf2a"
+    }
+  ]
+}

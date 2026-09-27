@@ -1,0 +1,94 @@
+{
+    "capacity":  98304,
+    "historical_output_cap":  1024,
+    "clean_exit_verified":  false,
+    "source_timings_sha256":  "e347466462e002e9a38b8b86037b87b4d009bbad0db5b32200b4b12f1831f7b0",
+    "engine_sha256":  "f1072687e794aa5958f121c8967983947b5ea1322fa336c60688cfdc7736742f",
+    "date":  "2026-09-27",
+    "rows":  [
+                 {
+                     "decode_ms":  2680.3,
+                     "finish":  "stop",
+                     "prompt_ms":  20562.4,
+                     "prompt_tokens":  3394,
+                     "requested_max_new":  1024,
+                     "generated":  97
+                 },
+                 {
+                     "decode_ms":  7190.7,
+                     "finish":  "stop",
+                     "prompt_ms":  20508.4,
+                     "prompt_tokens":  3521,
+                     "requested_max_new":  1024,
+                     "generated":  289
+                 },
+                 {
+                     "decode_ms":  2760.5,
+                     "finish":  "stop",
+                     "prompt_ms":  30381.9,
+                     "prompt_tokens":  5561,
+                     "requested_max_new":  1024,
+                     "generated":  125
+                 },
+                 {
+                     "decode_ms":  5547.5,
+                     "finish":  "stop",
+                     "prompt_ms":  40309.9,
+                     "prompt_tokens":  7548,
+                     "requested_max_new":  1024,
+                     "generated":  238
+                 },
+                 {
+                     "decode_ms":  4064.8,
+                     "finish":  "stop",
+                     "prompt_ms":  50529.6,
+                     "prompt_tokens":  9640,
+                     "requested_max_new":  1024,
+                     "generated":  192
+                 },
+                 {
+                     "decode_ms":  7096.6,
+                     "finish":  "stop",
+                     "prompt_ms":  81469.7,
+                     "prompt_tokens":  15289,
+                     "requested_max_new":  1024,
+                     "generated":  309
+                 },
+                 {
+                     "decode_ms":  23637.5,
+                     "finish":  "stop",
+                     "prompt_ms":  92963.6,
+                     "prompt_tokens":  17887,
+                     "requested_max_new":  1024,
+                     "generated":  853
+                 },
+                 {
+                     "decode_ms":  28825.5,
+                     "finish":  "length",
+                     "prompt_ms":  100350.2,
+                     "prompt_tokens":  19231,
+                     "requested_max_new":  1024,
+                     "generated":  1024
+                 },
+                 {
+                     "decode_ms":  4207.6,
+                     "finish":  "stop",
+                     "prompt_ms":  106932.1,
+                     "prompt_tokens":  20277,
+                     "requested_max_new":  1024,
+                     "generated":  173
+                 },
+                 {
+                     "decode_ms":  25714.3,
+                     "finish":  "stop",
+                     "prompt_ms":  108065.3,
+                     "prompt_tokens":  20639,
+                     "requested_max_new":  1024,
+                     "generated":  961
+                 }
+             ],
+    "schema":  "strata-numeric-trial/v1",
+    "contains_prompts":  false,
+    "formula":  "sum(tokens)*1000/sum(milliseconds)",
+    "lane":  "manual-pi-xhigh"
+}

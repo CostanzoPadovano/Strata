@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "before": {
+    "ram_free": 53579710464,
+    "commit_free": 64429113344,
+    "commit_used": 22045106176,
+    "commit_limit": 86474219520,
+    "system_cache": 9130336256,
+    "gpu": [
+      [
+        0,
+        15234,
+        39
+      ],
+      [
+        1,
+        16038,
+        36
+      ]
+    ]
+  },
+  "after": {
+    "ram_free": 53561667584,
+    "commit_free": 64421089280,
+    "commit_used": 22053130240,
+    "commit_limit": 86474219520,
+    "system_cache": 22826745856,
+    "gpu": [
+      [
+        0,
+        15254,
+        42
+      ],
+      [
+        1,
+        16038,
+        39
+      ]
+    ],
+    "peak_process_bytes": 15515185152,
+    "peak_job_bytes": 15533268992,
+    "owned_private_bytes_current": 0,
+    "owned_private_sample_complete": true,
+    "owned_private_processes": []
+  },
+  "log": {
+    "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\remote01\\native.log",
+    "sha256": "5a596a8e5e9aca1ffbc702fff8c0254c92cf2b47288de1e968f4b8ee61960605"
+  },
+  "command": {
+    "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\remote01\\command.json",
+    "sha256": "b03b6f8c6c0d6c08e689596929207fbaaeaca0fbf06b52594dafb1eaa63dfa5b"
+  },
+  "bound_evidence": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\remote01\\native.log",
+      "sha256": "5a596a8e5e9aca1ffbc702fff8c0254c92cf2b47288de1e968f4b8ee61960605"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\remote01\\command.json",
+      "sha256": "b03b6f8c6c0d6c08e689596929207fbaaeaca0fbf06b52594dafb1eaa63dfa5b"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\remote01\\observer.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\remote01\\telemetry.jsonl",
+      "sha256": "2dd90d114c8946fff056a2b2798a6ef6becf86a22091f939cc15f156936edf80"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\remote01\\child-result.json",
+      "sha256": "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\remote01\\job-attached",
+      "sha256": "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\build\\build-binding.json",
+      "sha256": "39c3aff95c8acd637f07e31e4017cc5a9e86e8b926afe3d6d7b71bd970116b7d"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\build\\remote_experts_test.exe",
+      "sha256": "5fdcc4f2b292b5837b27040d271c49291703c3633870f69ccacf7f883627c772"
+    }
+  ],
+  "created_utc": "2026-09-27T00:55:57.136874+00:00",
+  "purpose": "remote12",
+  "marker": "PASS remote_experts_selected12 layers=12 ids=28,29,30,32,34,35,37,42,43,44,46,47 payload_bytes=13526630400 allocation_bytes=14027026728 blob_cases=24 decode_calls=12 prefill_calls=13 blob_bytes=exact quant_bytes=exact outputs=exact large_prefill_bytes=209715200 chunk_bytes=16777216 owner_teardown=exact optimized_over8=rejected layer_coverage=all mode=original",
+  "engine_executable_sha256": "59ef6d14bd5c1c032b84e2ca08ec11aab11bd8c24cca51a156eb45ee0a20fea6",
+  "test_executable_sha256": "5fdcc4f2b292b5837b27040d271c49291703c3633870f69ccacf7f883627c772",
+  "build_binding_sha256": "39c3aff95c8acd637f07e31e4017cc5a9e86e8b926afe3d6d7b71bd970116b7d",
+  "source_gates_sha256": "c57dec1401fecf2a8817ee2bcfb998f80d22cf81e61c0dbc634fcffa2a88312a"
+}

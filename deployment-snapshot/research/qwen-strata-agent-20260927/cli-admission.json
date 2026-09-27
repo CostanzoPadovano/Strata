@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "name": "admitted tier 4096, no model",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --expert-cache-exact requires a native expert pack\n",
+      "context": "4096"
+    },
+    {
+      "name": "admitted tier 8192, no model",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --expert-cache-exact requires a native expert pack\n",
+      "context": "8192"
+    },
+    {
+      "name": "admitted tier 16384, no model",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --expert-cache-exact requires a native expert pack\n",
+      "context": "16384"
+    },
+    {
+      "name": "admitted tier 32768, no model",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --expert-cache-exact requires a native expert pack\n",
+      "context": "32768"
+    },
+    {
+      "name": "admitted tier 65536, no model",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --expert-cache-exact requires a native expert pack\n",
+      "context": "65536"
+    },
+    {
+      "name": "admitted tier 98304, no model",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --expert-cache-exact requires a native expert pack\n",
+      "context": "98304"
+    },
+    {
+      "name": "refuse --max-context=12288",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: remote expert layers require native resident admitted-context serve, exact cache, bounded registration, spec2..4, MTP onGPU0 and chunk1..2048\n",
+      "context": "12288"
+    },
+    {
+      "name": "refuse --spec=1",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse --mtp-device=1",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse --prefill=0",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse --prefill=2049",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse --adapt-every=4",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse --pcie-frac=0.55",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse --remote-expert-mode=graphs",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse --remote-expert-mode=packed",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse missing --no-prefill-borrow",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse missing --expert-cache-exact",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse --mmap-experts",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse --no-capture",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "refuse --vision",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: --gpu-host-dedup requires native static exact-cache 12-layer serve/spec2..4/MTP0, adapt0, no-prefill-borrow, pcie0 and no diagnostic paths\n",
+      "context": "4096"
+    },
+    {
+      "name": "duplicate ownership opt-in",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: duplicate --gpu-host-dedup\n",
+      "context": "4096"
+    },
+    {
+      "name": "old six layers not admitted at8K",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "strata generate: remote expert layers require native resident admitted-context serve, exact cache, bounded registration, spec2..4, MTP onGPU0 and chunk1..2048\n",
+      "context": "8192"
+    }
+  ],
+  "exe_sha256": "59ef6d14bd5c1c032b84e2ca08ec11aab11bd8c24cca51a156eb45ee0a20fea6",
+  "gguf_loaded": false,
+  "scope": "CLI parser/refusal only; missing pack forces accepted tiers to exit before native GGUF/CUDA allocation"
+}

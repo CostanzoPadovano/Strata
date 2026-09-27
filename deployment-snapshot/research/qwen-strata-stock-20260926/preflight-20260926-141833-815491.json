@@ -1,0 +1,58 @@
+{
+  "time_utc": "2026-09-26T14:18:33.815491+00:00",
+  "source_revision": "6da1f667e86558b152ab128edf3ebf77a80a9e57",
+  "source_tracked_changes": "",
+  "official_release": {
+    "version": "0.1.2",
+    "source": "release",
+    "archs": [
+      86,
+      89,
+      120
+    ],
+    "ptx": true,
+    "cuda": "13.0",
+    "vision": "gpu",
+    "portable": true
+  },
+  "archive_sha256": "34ad72b75836ce737a5acd0b2cceee0c03a4b1b4420d286f939705b9bb8e60be",
+  "exe_sha256": "e3684cc5c6ff51cfff3c4ebc864be6fa6c7179ae98176319f3da042cc1dd0c97",
+  "model": "existing ISTA GSQ-RCO IQ3_XXS",
+  "model_hash_evidence": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-20260926\\model-proof.json",
+  "model_size_mtime_revalidated": true,
+  "expert_payload_bytes": 42912972800,
+  "expert_arena_bytes": 42915302400,
+  "ram_reserve_gib": 0.0,
+  "user_authorized_no_ram_reserve": true,
+  "commit_reserve_gib": 4.0,
+  "user_authorized_experimental_memory": true,
+  "available_ram_gib": 46.82221603393555,
+  "available_commit_gib": 59.04906463623047,
+  "minimum_ram_free_gib_before_auxiliary_allocations": 39.967989921569824,
+  "minimum_commit_free_gib_before_auxiliary_allocations": 43.967989921569824,
+  "ram_shortfall_to_minimum_gib": 0.0,
+  "measured_memory": {
+    "ram_free": 50274971648,
+    "commit_free": 63403450368,
+    "commit_used": 23556210688,
+    "commit_limit": 86959661056,
+    "system_cache": 20371017728
+  },
+  "gpu": [
+    [
+      0,
+      14897,
+      39
+    ],
+    [
+      1,
+      16050,
+      34
+    ]
+  ],
+  "minimum_checks_passed": true,
+  "failures": [],
+  "model_started": false,
+  "runtime_admission": false,
+  "note": "These are necessary lower bounds, not complete admission or a full-model benchmark. Auxiliary memory, synthetic gates and guarded load remain separate."
+}

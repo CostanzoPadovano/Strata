@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "profile": "experimental-no-vram-floor",
+  "gpu": 0,
+  "official_exe_sha256": "e3684cc5c6ff51cfff3c4ebc864be6fa6c7179ae98176319f3da042cc1dd0c97",
+  "source_gates_sha256": "b354cecca690ff883e227acf69f09d3032d71a85cdad6f505856835322ea7283",
+  "ready_state_resource_check": true,
+  "vram_reserve_mib": 3072,
+  "gpu_start_floor_mib": 0,
+  "gpu_floor_mib": 0,
+  "pool_workers": 8,
+  "device_visibility": "0",
+  "base_config_sha256": "7081e53be595df290c4a0d4188beeed270e3ab0d4445b022cef4fc26d715a5f6",
+  "run": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-stock-20260926\\runs\\stock-load4k-gpu0-advanced03"
+}

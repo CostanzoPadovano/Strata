@@ -1,0 +1,2 @@
+STRATA_GLOBAL_PI_OK = ORCHID-7314
+Questo file serve soltanto a verificare una lettura reale tramite il Pi globale.

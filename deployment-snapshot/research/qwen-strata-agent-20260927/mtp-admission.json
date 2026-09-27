@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "before": {
+    "ram_free": 56200560640,
+    "commit_free": 67031662592,
+    "commit_used": 19442556928,
+    "commit_limit": 86474219520,
+    "system_cache": 8962449408,
+    "gpu": [
+      [
+        0,
+        15254,
+        39
+      ],
+      [
+        1,
+        16038,
+        35
+      ]
+    ]
+  },
+  "after": {
+    "ram_free": 52796329984,
+    "commit_free": 63436435456,
+    "commit_used": 23037784064,
+    "commit_limit": 86474219520,
+    "system_cache": 9087418368,
+    "gpu": [
+      [
+        0,
+        15205,
+        41
+      ],
+      [
+        1,
+        16038,
+        39
+      ]
+    ],
+    "peak_process_bytes": 2811457536,
+    "peak_job_bytes": 2829500416,
+    "owned_private_bytes_current": 0,
+    "owned_private_sample_complete": true,
+    "owned_private_processes": []
+  },
+  "log": {
+    "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\mtp02\\native.log",
+    "sha256": "9373de10116378a36645ed22d207e39258dd5cb4202ef20d0b8054c2e451b628"
+  },
+  "command": {
+    "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\mtp02\\command.json",
+    "sha256": "192e3352b9a407709ee215ae2db037acf74a5eacbfa35815dafdbc8654d719ab"
+  },
+  "bound_evidence": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\mtp02\\native.log",
+      "sha256": "9373de10116378a36645ed22d207e39258dd5cb4202ef20d0b8054c2e451b628"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\mtp02\\command.json",
+      "sha256": "192e3352b9a407709ee215ae2db037acf74a5eacbfa35815dafdbc8654d719ab"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\mtp02\\observer.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\mtp02\\telemetry.jsonl",
+      "sha256": "1352f77cbb4d75cc22deeea1fe0a9c60ace0f3dddc39cad5e2555076e814e0c9"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\mtp02\\child-result.json",
+      "sha256": "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\numerical-runs\\mtp02\\job-attached",
+      "sha256": "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\build\\build-binding.json",
+      "sha256": "39c3aff95c8acd637f07e31e4017cc5a9e86e8b926afe3d6d7b71bd970116b7d"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\build\\mtp_equivalence_test.exe",
+      "sha256": "e8b3ebaefb2353ce92921d8ee7c24c6a613417db8af6d14dd18de6d7a7dd8790"
+    }
+  ],
+  "created_utc": "2026-09-27T00:55:08.948569+00:00",
+  "purpose": "mtp",
+  "marker": "PASS mtp_equivalence fixtures=36 modes=9 probability_bits=exact",
+  "engine_executable_sha256": "59ef6d14bd5c1c032b84e2ca08ec11aab11bd8c24cca51a156eb45ee0a20fea6",
+  "test_executable_sha256": "e8b3ebaefb2353ce92921d8ee7c24c6a613417db8af6d14dd18de6d7a7dd8790",
+  "build_binding_sha256": "39c3aff95c8acd637f07e31e4017cc5a9e86e8b926afe3d6d7b71bd970116b7d",
+  "source_gates_sha256": "c57dec1401fecf2a8817ee2bcfb998f80d22cf81e61c0dbc634fcffa2a88312a"
+}

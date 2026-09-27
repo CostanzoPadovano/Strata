@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "purpose": "remote-experts",
+  "scope": "Resident native expert kernel parity, bounded six-layer GPU owners; no main host arena/PLE/generation",
+  "profile_gap_ms": null,
+  "profile_chain_batch": null,
+  "limits": {
+    "ram_floor_gib": 0,
+    "commit_floor_gib": 4,
+    "job_cap_gib": 8,
+    "gpu_start_floor_mib": 0,
+    "gpu_floor_mib": 0,
+    "vram_reserve_mib": 3072
+  },
+  "executable_sha256": "ed85466faa7ef667f73c66923e2975942f2faaaee7b73025f001676201f8360d",
+  "engine_executable_sha256": "f7d5bf01b658adec393e8d86a92d3da7026967b5179d910bfbebda46645d82d2",
+  "gates_sha256": "d6425d7db1b297afd629bbec97552c3933c14735fc8c9f212f04df9edfde9144",
+  "layer_ids": [
+    22,
+    24,
+    28,
+    30,
+    33,
+    34
+  ],
+  "payload_bytes": 6448742400,
+  "six_layer_coverage": {
+    "devices": 2,
+    "layer_ids": [
+      22,
+      24,
+      28,
+      30,
+      33,
+      34
+    ],
+    "payload_bytes": 6448742400,
+    "allocation_bytes": 6949138728,
+    "blob_cases_per_device": 12,
+    "decode_calls_per_device": 6,
+    "prefill_calls_per_device": 7,
+    "all_layer_coverage": "exact",
+    "quant_bytes": "exact",
+    "outputs": "exact",
+    "mode": "original",
+    "max_prefill_t": 2048,
+    "max_prefill_k": 10
+  },
+  "layers": 6,
+  "decode_calls": 6,
+  "prefill_calls": 7,
+  "quant_bytes": "exact",
+  "outputs": "exact",
+  "blob_bytes": "exact",
+  "bound_evidence": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\remote15\\result.json",
+      "sha256": "ca92d5948ffded2a19309b7c12f4ee3bf7e36e72d96c627306d34179196b981e"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\remote15\\native.log",
+      "sha256": "cb4b40ff6ecab80283ce0012653ea13b5039a6ca880feaffc0d8778c99a09e70"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\remote15\\probe.json",
+      "sha256": "bc8959eaef12518335963260432092a9fcbf08a613c225a4c9ea2e7ba491933d"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\remote15\\command.json",
+      "sha256": "4335633e683fe4ff7f7c8814a9b2dd1a103d0633864d5113ec16587cfdb1b68d"
+    }
+  ]
+}

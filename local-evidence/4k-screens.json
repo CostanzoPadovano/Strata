@@ -1,0 +1,203 @@
+{
+    "engine_sha256":  "f7d5bf01b658adec393e8d86a92d3da7026967b5179d910bfbebda46645d82d2",
+    "schema":  "strata-numeric-4k/v1",
+    "context":  4096,
+    "contains_prompts":  false,
+    "formula":  "arithmetic mean of per-request native token rates, pooled by variant",
+    "pool_workers":  8,
+    "screens":  [
+                    {
+                        "label":  "dual-bench4k-six01",
+                        "source_probe_sha256":  "f3d668dbd2cc51e7c229abed2ba8fdc11b59c970a8969d652a3d3e55590db710",
+                        "source_result_sha256":  "4d0e7f1ea18d88407c0459414b1ac637899dfd447efec237c52e85016bf89c29",
+                        "rows":  [
+                                     {
+                                         "decode_ms":  5820.2,
+                                         "name":  "decode_screen_0",
+                                         "prompt_ms":  1154.3,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  4678.7,
+                                         "name":  "decode_screen_1",
+                                         "prompt_ms":  1143.9,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  4786.1,
+                                         "name":  "decode_screen_2",
+                                         "prompt_ms":  1113.4,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  190.4,
+                                         "name":  "prefill_screen_0",
+                                         "prompt_ms":  8950.5,
+                                         "prompt_tokens":  3107,
+                                         "finish":  "stop",
+                                         "generated":  5
+                                     },
+                                     {
+                                         "decode_ms":  187.6,
+                                         "name":  "prefill_screen_1",
+                                         "prompt_ms":  8968.1,
+                                         "prompt_tokens":  3107,
+                                         "finish":  "stop",
+                                         "generated":  5
+                                     }
+                                 ],
+                        "passed":  true
+                    },
+                    {
+                        "label":  "single-bench4k-six01",
+                        "source_probe_sha256":  "39fb95bfcc39fe5f0ebf2cafd55015ca08b68224cb9d09237c31257943a167e4",
+                        "source_result_sha256":  "0958f570bc1b5cb3348196a6feabd87a34cc484ff15feed0740e11ae9933b276",
+                        "rows":  [
+                                     {
+                                         "decode_ms":  6038.5,
+                                         "name":  "decode_screen_0",
+                                         "prompt_ms":  1255.2,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  5006.1,
+                                         "name":  "decode_screen_1",
+                                         "prompt_ms":  1239.1,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  5084.1,
+                                         "name":  "decode_screen_2",
+                                         "prompt_ms":  1259.4,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  222.6,
+                                         "name":  "prefill_screen_0",
+                                         "prompt_ms":  9233.1,
+                                         "prompt_tokens":  3107,
+                                         "finish":  "stop",
+                                         "generated":  5
+                                     },
+                                     {
+                                         "decode_ms":  208.9,
+                                         "name":  "prefill_screen_1",
+                                         "prompt_ms":  9072.4,
+                                         "prompt_tokens":  3107,
+                                         "finish":  "stop",
+                                         "generated":  5
+                                     }
+                                 ],
+                        "passed":  true
+                    },
+                    {
+                        "label":  "single-bench4k-six02",
+                        "source_probe_sha256":  "03168b136a4c690fc5bc52df61063758f7a7a70b68ec3b17feef536ff6b163e7",
+                        "source_result_sha256":  "2e89d297701b668015dfc5d33bb9717d8808c05cba449540201777c9cae2db27",
+                        "rows":  [
+                                     {
+                                         "decode_ms":  6019.6,
+                                         "name":  "decode_screen_0",
+                                         "prompt_ms":  1259.1,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  5000.5,
+                                         "name":  "decode_screen_1",
+                                         "prompt_ms":  1221.5,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  5002.4,
+                                         "name":  "decode_screen_2",
+                                         "prompt_ms":  1232.4,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  234.0,
+                                         "name":  "prefill_screen_0",
+                                         "prompt_ms":  9206.7,
+                                         "prompt_tokens":  3107,
+                                         "finish":  "stop",
+                                         "generated":  5
+                                     },
+                                     {
+                                         "decode_ms":  213.1,
+                                         "name":  "prefill_screen_1",
+                                         "prompt_ms":  9200.4,
+                                         "prompt_tokens":  3107,
+                                         "finish":  "stop",
+                                         "generated":  5
+                                     }
+                                 ],
+                        "passed":  true
+                    },
+                    {
+                        "label":  "dual-bench4k-six02",
+                        "source_probe_sha256":  "c488691cccbad4c0233adbacaf34753826846c9aa24f216de7b7da2e61c856f1",
+                        "source_result_sha256":  "d6889aafc6653ba2ce2ce971f61d3c071268fa161d13f24414033e4b6ecc0389",
+                        "rows":  [
+                                     {
+                                         "decode_ms":  5584.6,
+                                         "name":  "decode_screen_0",
+                                         "prompt_ms":  1204.7,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  4840.6,
+                                         "name":  "decode_screen_1",
+                                         "prompt_ms":  1165.4,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  4688.2,
+                                         "name":  "decode_screen_2",
+                                         "prompt_ms":  1164.5,
+                                         "prompt_tokens":  42,
+                                         "finish":  "length",
+                                         "generated":  256
+                                     },
+                                     {
+                                         "decode_ms":  198.7,
+                                         "name":  "prefill_screen_0",
+                                         "prompt_ms":  8899.6,
+                                         "prompt_tokens":  3107,
+                                         "finish":  "stop",
+                                         "generated":  5
+                                     },
+                                     {
+                                         "decode_ms":  191.0,
+                                         "name":  "prefill_screen_1",
+                                         "prompt_ms":  9094.9,
+                                         "prompt_tokens":  3107,
+                                         "finish":  "stop",
+                                         "generated":  5
+                                     }
+                                 ],
+                        "passed":  true
+                    }
+                ],
+    "workload":  "3 x 42-prompt/256-output code; 2 x 3107-prompt/5-output table per screen"
+}

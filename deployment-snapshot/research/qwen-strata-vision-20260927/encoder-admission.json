@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source_gates_sha256": "4f3a39517bc670eb59810508a7c86e375f68d8bbc1643687a614f7be7ca8c1ce",
+  "bound_files": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\runs\\output-budget-encoder03\\result.json",
+      "sha256": "d3c3afe61064002d5d26bba5bc30f3782ad586a7b94d184a759500c16a950f63"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\runs\\output-budget-encoder03\\probe.json",
+      "sha256": "90422eb3c691b81112a23b59d3c65429b0b70b0280b83fa6d368c599c4d7e095"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\runs\\output-budget-encoder03\\encoder.log",
+      "sha256": "778ced8af7675a5a2c7ca944f5a3726340e079207251e24e70c3f1dbcf699392"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\runs\\output-budget-encoder03\\telemetry.jsonl",
+      "sha256": "818b2f41ebfc309885ef92a14c69ed22df05912e6f8675ae5ae4c970f7c8ae58"
+    }
+  ]
+}

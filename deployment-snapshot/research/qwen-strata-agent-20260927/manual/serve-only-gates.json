@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "qualification": "offline-startup-only-derivative",
+  "model_started": false,
+  "parent_source_gates_sha256": "4f3a39517bc670eb59810508a7c86e375f68d8bbc1643687a614f7be7ca8c1ce",
+  "bound_files": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\manual\\serve_only_server.py",
+      "sha256": "879c40924643b621c7ebc9404e9cc0fcd80d98f6cb0fe75ff034b59dd1d6da5a"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\manual\\serve_only_guard.py",
+      "sha256": "377d34163d2c679736f49991315bb83875683478bfb3b98be98955af2da2d340"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\manual\\serve_only_derivation.py",
+      "sha256": "ac69c1c9e4dd825dbf62577e1cf862ac69c704fdcb788c69ef4d19c81d283faa"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\manual\\test_serve_only.py",
+      "sha256": "9e0c43be69903a335f6d39d190827e7e73722a7281925cf949334e9c2f06ea2c"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\manual\\prepare_serve_only.py",
+      "sha256": "776773bc3b19c46371c0d5afbee8b0801db96fc5d712eca3282c857edbd70d19"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\manual\\vision_user_launcher.py",
+      "sha256": "979f528776dbb674bcb76b848e9b089a3bed730844662a9526a6bf1e4d827bf9"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\manual\\manual_guard.py",
+      "sha256": "8ee602cab321cc6b0fe95b4abcb1daad200f6663637e188e3155eb72650a511c"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-agent-20260927\\manual\\serve-only-tests-1790507925411218600.log",
+      "sha256": "b8ac90b754d62a9f669118b20ceca6befd2d3f1cff9035612f50e85434db325a"
+    }
+  ]
+}

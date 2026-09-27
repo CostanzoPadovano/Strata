@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "profile": "experimental-no-vram-floor",
+  "gpu": 0,
+  "official_exe_sha256": "f7d5bf01b658adec393e8d86a92d3da7026967b5179d910bfbebda46645d82d2",
+  "source_gates_sha256": "d6425d7db1b297afd629bbec97552c3933c14735fc8c9f212f04df9edfde9144",
+  "ready_state_resource_check": true,
+  "vram_reserve_mib": 3072,
+  "gpu_start_floor_mib": 0,
+  "gpu_floor_mib": 0,
+  "pool_workers": 8,
+  "device_visibility": "0,1",
+  "base_config_sha256": "486e1321e90d7bc6a344d060868ff4c3a2186228c91c728ac65f639f88ef5e5d",
+  "run": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\runs\\dual-load4k-agent3072-01"
+}

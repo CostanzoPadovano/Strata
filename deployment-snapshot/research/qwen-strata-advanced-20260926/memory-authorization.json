@@ -1,0 +1,8 @@
+{
+  "authorized_profiles": ["experimental-no-vram-floor"],
+  "authority": "Explicit advanced dual-GPU design/implementation/test request in the active goal, extending the previously confirmed RAM0/commit4/Job60 and VRAM-floor0 profile only to this isolated campaign.",
+  "context_cap": 4096,
+  "temperature_limit_c": 80,
+  "os_pagefile_driver_clocks_apps_changes": false,
+  "production_promotion": false
+}

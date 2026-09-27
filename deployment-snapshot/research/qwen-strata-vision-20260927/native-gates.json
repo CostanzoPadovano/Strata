@@ -1,0 +1,1372 @@
+{
+  "passed": true,
+  "created_utc": "2026-09-27T07:03:36.2682838Z",
+  "engine_sha256": "f1072687e794aa5958f121c8967983947b5ea1322fa336c60688cfdc7736742f",
+  "build_binding_sha256": "601d30521db93a328064920023ba03200be3e9d806577f21645c547afcb04da1",
+  "source_base": "6da1f667e86558b152ab128edf3ebf77a80a9e57",
+  "ggml_revision": "3cf03257f219afbe7334045ff7c6a06ac68c627d",
+  "cuda": "13.3.73",
+  "architecture": "120",
+  "full_gguf_loaded": false,
+  "gates": {
+    "vision_protocol": "passed",
+    "vision_mrope": "passed",
+    "transport": "passed",
+    "registration": "passed",
+    "embedding": "passed",
+    "compacted_loader": "passed",
+    "verify_wait": "passed",
+    "vision_static_owner_cli": "accepted through guard; stopped at intentionally missing native GGUF",
+    "other_static_owner_mode": "keep-canonical still rejected",
+    "mtp_equivalence": "fresh binary built; numerical rerun deferred to bounded numerical guardian",
+    "remote_selected12": "fresh binary built; numerical rerun deferred to bounded numerical guardian"
+  },
+  "bound_files": [
+    {
+      "sha256": "54d147660f9da030e20df669ea67aa828d31a843ccfd2b966ddb3e7e53a8e8d7",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build.ps1"
+    },
+    {
+      "sha256": "7cd223db304cfe2d5b7b4aeb1ed32d9b6dd66624ac9f4f7579a9524f67058b59",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\build-20260927-085741.log"
+    },
+    {
+      "sha256": "601d30521db93a328064920023ba03200be3e9d806577f21645c547afcb04da1",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\build-binding.json"
+    },
+    {
+      "sha256": "9a99b77393925e49c9aed2d2202da3b9ac3c0660ca034ca3bd079362b1a5c7a6",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\compacted_loader_test.exe"
+    },
+    {
+      "sha256": "e39761c7c1ae9137d6463386beb2b48bd414d12d402ca11575e544d575583fca",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\embedding_cache_test.exe"
+    },
+    {
+      "sha256": "2bc2e88b62677dc2973d69d6bcc25a03bbd60804e0de7ba43b9bbf3320933586",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\host_registration_test.exe"
+    },
+    {
+      "sha256": "29391349e60565cbe0b2e3424dd9e4a94a76cbce85f64a79c6c982094d6598ff",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\mtp_equivalence_test.exe"
+    },
+    {
+      "sha256": "6a92d7786450b3968fa30d851da5b832cf7fcde3764ddc114d279077bb270e0a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\mtp_profile_test.exe"
+    },
+    {
+      "sha256": "9d72674c39ee6f1cdace54c19211cf364596a24eed5a78c7453e060bdac29e45",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\mtp_transport_test.exe"
+    },
+    {
+      "sha256": "950056a0fb07669ddf50958c82406b1bd6d6442d14a315bd04dca7de9c879f73",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\remote_experts_profile_test.exe"
+    },
+    {
+      "sha256": "f2c7701a4f4c055adf2f1054f0f4f8b09193ac166102ae09e3439c8732554637",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\remote_experts_test.exe"
+    },
+    {
+      "sha256": "f1072687e794aa5958f121c8967983947b5ea1322fa336c60688cfdc7736742f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\strata.exe"
+    },
+    {
+      "sha256": "83b9ea9e7f6ebf1c8d8c683ef5a37dc78111cc04ab1c4c98d8560cad801abae9",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\verify_wait_test.exe"
+    },
+    {
+      "sha256": "e27fc8ce9bb2b112c5b827e4ccfa6eb9462098b94f53bc240bd28ec137e4067f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\vision_mrope_test.exe"
+    },
+    {
+      "sha256": "2f86b8de7eadc61b6230737b3b7851ea74201e51087c8872fdb076594bc9fdde",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\build\\vision_protocol_test.exe"
+    },
+    {
+      "sha256": "fa3143ee88538871f0a7fdfc1ee5d6e4688ee7f8d60c031a2ec652458607bd7b",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\compacted_loader_test.cpp"
+    },
+    {
+      "sha256": "9a45d2cf2b020d3ade3d4ffe074529a33519bb0bf3207cbc2e1cf5aea6f8447a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\embedding_cache_test.cu"
+    },
+    {
+      "sha256": "015040d9e0019d5ea98c7aa673e4662fd98da996970bf97bbe8c529639e60f5c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\cmake.diff"
+    },
+    {
+      "sha256": "4505876ad0bd4b8646a3643fb0aad4e87aae6ae047ccb0ba960c027576af155a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\commands.json"
+    },
+    {
+      "sha256": "611f4bfae34e1de7098d22f710b4bb9b1b8bbcaad1f07c2c562c43dd82644e45",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\compacted_loader.log"
+    },
+    {
+      "sha256": "86b4efe81496f185eeede0f4f830221c79e966c6820c4eb25cdb084fe6f0a60d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\embedding.log"
+    },
+    {
+      "sha256": "4fe540ddf93808e9769cc490864136c49cc2c08a14d886f020ccdb01261c998a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\generate.diff"
+    },
+    {
+      "sha256": "f6f49990a327b3badd5f2145bc468193211210cc4445937bf6460c06d0a05a79",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin"
+    },
+    {
+      "sha256": "c4bf380d29f9c86e8f7c6439c682da35ba369400f68c6b18f77182a139f96a04",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.packed"
+    },
+    {
+      "sha256": "53fb550402525b56ef9ae0221824435837ac8933a201bc705dd8f6d5eca2ffa3",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.pairpacked"
+    },
+    {
+      "sha256": "fc5178a9076ebf580c175518665e1603dc1a8b8679ae1e8b786e3b2621e59d1c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.pairroles0"
+    },
+    {
+      "sha256": "1b0fd0b2304dbfded2dc5e7a7ceed5f2d591656455c6af667b46036447dfd525",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.pairroles1"
+    },
+    {
+      "sha256": "36bfa10c920614c5fe4217c7016853212152b55c0ee4a824f673f6e5ab72b80a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.pairtruncated"
+    },
+    {
+      "sha256": "4a4e3edbee08074402b6f657352c4360eeaa871386579929a06a1d269b1cc56b",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.roles0"
+    },
+    {
+      "sha256": "1a5f2e2a03a68244d1aa2c47ae4c3740e655210b7c5a9e72195a31399e0ecb98",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.roles1"
+    },
+    {
+      "sha256": "30cb6e6add1a7d4dfdffa64d6e330d11e26e6721b0f87fed17ec3bda636da32f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.sixpacked"
+    },
+    {
+      "sha256": "591f6ac56bf171816d53823b4d9cb5c0656f8847479d8acf68cde17e4da52290",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.sixroles0"
+    },
+    {
+      "sha256": "0a830c3e0114f13fae0b360d23fae81091c9eba657e79260620f7538350478c3",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.sixroles1"
+    },
+    {
+      "sha256": "10c39f1939831882d401f9b3d569f6f2065c2955914b2196424858876433c7c7",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\loader-fixture.bin.twelvepacked"
+    },
+    {
+      "sha256": "20a26f946412ab087d735e6789d72a8f03e2754a28db0cc7e0a6ec6f1a8e3ce3",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\registration.log"
+    },
+    {
+      "sha256": "d0f4bebafc0c9ed7ead8a4f4b66fc617f55d1616adf41a828abbc38a00e1c224",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\static_owner_negative.log"
+    },
+    {
+      "sha256": "a3c37c1c38b462e0335df0398e9688c6362679cca13662128deefd47315d0cad",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\transport.log"
+    },
+    {
+      "sha256": "968aeb2a2989fe61ed2cf79117f4f439eea518abd351b6ca3f2cfea8e652de94",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\verify_wait.log"
+    },
+    {
+      "sha256": "cfb81318e474cb8e11825fdf69d92b49a5f0107d197b0ed1ee02bad696b893ff",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\vision_mrope.log"
+    },
+    {
+      "sha256": "0c8b961a5dbc5428abe8944e0f6566867afc916b368da0e3e7bf210ca1511ae5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\vision_protocol.log"
+    },
+    {
+      "sha256": "6fa7b74e65a3cb5a0953c0a0bea5225f389f36a433f27ed5cabba304297031bf",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\gate-runs\\native01\\vision_static_owner_cli.log"
+    },
+    {
+      "sha256": "0eccb29fd57d3a3070f3936c07d060b698fdecd99213d16c33400b7bf3108c9e",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\host_registration_test.cu"
+    },
+    {
+      "sha256": "b4dbc29a63c64ff7f4380c50c4fa4a2d6816598452771efa48ee9a9105e917ec",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\mtp_equivalence_test.cpp"
+    },
+    {
+      "sha256": "4c5641be8e412f9c3950e3e3ad78e05a5bef2a3a8fe98dd95f32d6fb53ab1a1d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\mtp_profile_test.cpp"
+    },
+    {
+      "sha256": "89f6d302951e3b2c068ea33db797897e20b9600172750937cc8c58f3f8802384",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\remote_experts_profile_test.cpp"
+    },
+    {
+      "sha256": "1592937b9e067e3ecabb7d930da78f675e912d31d0990f05318f713f2882fc60",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\remote_experts_test.cpp"
+    },
+    {
+      "sha256": "e87e54246d2a054395b1b00598cac5394726c6d9e032aac61d23b2bdb23634a0",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\.gitattributes"
+    },
+    {
+      "sha256": "efd8e4870e3d8025c801b0ff133bc0020af93c57b97f3988aac5e85cead48233",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\.gitignore"
+    },
+    {
+      "sha256": "e32d1e34a6e14d1c826101dfdcc95c33492d022bbd193adec60e0ddefc893ca4",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\bench\\results\\2026-09-24-final\\estimates.json"
+    },
+    {
+      "sha256": "20aa13a5e433ccae284f46fb39417eaf2bc0535f56fe2c6a9f9d2cb9a2b1f362",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\bench\\results\\2026-09-24-final\\estimates.md"
+    },
+    {
+      "sha256": "673bab2abbca48b0ee1d5250262306a8f16d858a37ca81eea00a04d6a39ee4dd",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\bench\\results\\2026-09-24-final\\matrix.json"
+    },
+    {
+      "sha256": "b94121f47e30c3159d35f5e8af4d6844d215dea7b1df13633b2faaf2d5f0c0f5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\bench\\results\\2026-09-24-final\\matrix.md"
+    },
+    {
+      "sha256": "25997bcba0bfa6628c5e150a938d520e8c3e9b0f3dc216fb2edbe61b00191e53",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\bench\\results\\2026-09-24-vision\\vision.json"
+    },
+    {
+      "sha256": "6825d3c0cb323c324c2732e55b4f0a98d82d03c9e8c33a01be1f04d10227ac60",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\bench\\results\\2026-09-24-vision\\vision.md"
+    },
+    {
+      "sha256": "d48c66fa36cf714dc6a804b70b1b812d4bf291ecd5786c16b86ebc111c9cbf0f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\chat.py"
+    },
+    {
+      "sha256": "673c3c6143b18adb31f5ef1f4a8c7e735e0afb10f329a7043b4e9d6eeeac4f71",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\CMakeLists.txt"
+    },
+    {
+      "sha256": "310709f825b99e2fccccebe42150aec367bb63285d87ef2af7a54ee35c00543c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\compacted_loader_test.cpp"
+    },
+    {
+      "sha256": "369151522226a5edaa5f12cfd1e2ae7db8f4fbdbd222f3dcf327dced9597fb25",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\data\\draft_vocab.bin"
+    },
+    {
+      "sha256": "2504ff83d9dcacc80e503dfe02b06d139a3170b914241b69eac728009f9a1300",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\data\\expert-profile.bin"
+    },
+    {
+      "sha256": "db2278acfc381882f8e86f790e3a66542cb9f0c6faedf49efe0d0350af4eb1b5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\docs\\DETAILS.md"
+    },
+    {
+      "sha256": "c6b2680b37cff8196682cb9fca0c729368404fccb8bb002aa50e8fff96a6490d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\docs\\paper\\Strata-Paper.pdf"
+    },
+    {
+      "sha256": "70120e871411cd51c1d228e931effd6fed40a29b05e3d98815c84c1f7994b86f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\docs\\paper\\tiers.svg"
+    },
+    {
+      "sha256": "db3014cd0bd3cfef7a860205570cadc752d469a3b36c0bdc6bc20670a3ac31c0",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\artifact\\dequant.hpp"
+    },
+    {
+      "sha256": "f983f17018fa91ffd4b8dba66ef04dbcb054c680b625ec5f265c1105a37d713f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\artifact\\gguf_reader.hpp"
+    },
+    {
+      "sha256": "6129bded458c82a0fc9c3c1cfa3032d6e3258e4924cafef3d5fa58ccb02abd04",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\device.hpp"
+    },
+    {
+      "sha256": "16bb79d4498a653b1469bdb5fb59e326c3b44638fea1f83da4b1f195bdd06763",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\expert_cache.hpp"
+    },
+    {
+      "sha256": "bb9c2c8f6a0593d2836e56ec8da7f7a496392e30302aa351d5aa271295644320",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\expert_source.hpp"
+    },
+    {
+      "sha256": "590f2daf7221eba25c1720503abdfe4c8b71f85dd21627bb25aec49f87f68b2c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\graph.hpp"
+    },
+    {
+      "sha256": "b1bc19af4edf12f0a8c821e1989d675917aa569fc9969adb5e9a1cd0d9041daf",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\hit_hook.hpp"
+    },
+    {
+      "sha256": "e8fc634592668e0b251bfb047d964fa13fbd1d40ea47c5ffedd19587de4a6003",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\layer.hpp"
+    },
+    {
+      "sha256": "8948848dadfbb22c5f9928399f4072637b3514e8cb8123c0c95cdcdb0dc5c05e",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\layout.hpp"
+    },
+    {
+      "sha256": "ee554025eeb7239dabd9c154c89aec521e7bb2dccf84a82d77459239f9dd00f9",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\mtp.hpp"
+    },
+    {
+      "sha256": "9daf3a117d14be384be979422dfc1717fd79f7821df28796a6cdf10597cfe9d6",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\native_dense.hpp"
+    },
+    {
+      "sha256": "fc03f9312bf402f0676cb29af367c0b20a62978fb0ea4c33777b4d2623d77c54",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\native_head.hpp"
+    },
+    {
+      "sha256": "c7ca0460b040232d253b311dcdf6603bfee4378957f1ebe0192d03b86d8f4d65",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\pinned.hpp"
+    },
+    {
+      "sha256": "5da5670f6955b15dd2ea8864ca296ca5d6bf86e75a6dc6bc49fbb356baa88ffe",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\remote_experts.hpp"
+    },
+    {
+      "sha256": "cbd1da55e8eef521d767e9d7f89ae1d621199a64f9d8ca5e1868f29c02de352e",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\session.hpp"
+    },
+    {
+      "sha256": "12f752e8a179f74e3869c5eac48f1b3ea1c2a8b1bcce90b3eb24ca035e11d8b9",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\verify.hpp"
+    },
+    {
+      "sha256": "7744154d92a3fd7e59a9d5345a92a2ad1e51993812e2c09383e81eef9227b738",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\vision_request.hpp"
+    },
+    {
+      "sha256": "ef930efb7be08e5d41451f8567eeabf305941fd0aa06a8d676035bf999d33718",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\core\\weights.hpp"
+    },
+    {
+      "sha256": "150f9552f3e03827e28a59df940e46aa6c34108b61df7c5a7605b28ba79534b5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\bf16_bits.hpp"
+    },
+    {
+      "sha256": "e1b671a5b5dcca5ae7daf8dc72dd92b9770491458016e9513edf54eb534f5b3a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\bf16_gemv.hpp"
+    },
+    {
+      "sha256": "1ad02862a66e7e9a233b853832b684105c36aa8d06bd307e747cf9003fb42cf5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\cpu\\expert_layout.hpp"
+    },
+    {
+      "sha256": "18dfb106240a68e263109b894f59060fe252d4ffe68fa3647879b29fc7f8b837",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\cpu\\expert.hpp"
+    },
+    {
+      "sha256": "bed355390929a1bc2668ff098f9ef48fecfc60f8fc05922a9c41ef3aac3a2080",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\cpu\\iq_avx512.hpp"
+    },
+    {
+      "sha256": "0e51056635be6dc056dafc45a9679c74c95938c3312cd2ac2eb555a867c35e33",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\cpu\\native_expert.hpp"
+    },
+    {
+      "sha256": "6201a83a5760f389ac4123cf9405820c92d856d71aa598930b25f8f4b52354d2",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\cpu\\pool.hpp"
+    },
+    {
+      "sha256": "a2833749a59161a7a7b1df0afd3fa2190789d8463c66454bf4d62a7f9c8bcd41",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\dequant_bf16.hpp"
+    },
+    {
+      "sha256": "ecdeb8eb3d82f059e2ea06db011a70dfcda6b4b260b811be48fd99354ff00bee",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\dequant_s2.hpp"
+    },
+    {
+      "sha256": "b2e2f987cedb055b31687b7022b1b279d0a141d4163c89090a7c4ab881014457",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\elementwise.hpp"
+    },
+    {
+      "sha256": "8b5c92204ae5a2fe1a8a20b1051a89b3b1619a36a379ee74cd8b3ff1c72e63e3",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\f16_bits.hpp"
+    },
+    {
+      "sha256": "95c1580012e7424cb49b381f8ed7ef844cfb7b27203c55300e1ad3e03f28b031",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\fused_gdn.hpp"
+    },
+    {
+      "sha256": "e69b684cceb1fdb9042a78882d01afa953b256a3f57a4b49d8e7fb89ed8b0b3d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\fused_gr.hpp"
+    },
+    {
+      "sha256": "b540225582bd59f513c60cd84955a6b33925b6b2a7fda9393b3d2c7d09d147c2",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\gdn.hpp"
+    },
+    {
+      "sha256": "43f5c438ed1ee12403d916a3f5440ce001fa2c5e4a6f9c45334dc2a0cd21581b",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\gr.hpp"
+    },
+    {
+      "sha256": "e4a49d764b8a3bff5aae59c3a6c7ffeee57fe31107d0b675b0dc28409ee52c56",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\iq_kernels.hpp"
+    },
+    {
+      "sha256": "de068168a252df1810d38b074218f1f4f92bc250cb6538bd419b2c06a3bd4e3a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\kv_q8.hpp"
+    },
+    {
+      "sha256": "6485f186e07a449113e0a1f0b41b93ffb49bc387c3670b90c7b87a9b365366ee",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\mrope.hpp"
+    },
+    {
+      "sha256": "45c9224b670b833c1a86ceb4a0328c66c1658d0916334da1ee37f98fa7eaf47e",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_flash_attn.hpp"
+    },
+    {
+      "sha256": "65702c36beb74b89befb27603ec3c532de18c3c68dc012ad456738b44b7d07ff",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_gdn_preprocess.hpp"
+    },
+    {
+      "sha256": "2b2da52bd5e0f8ce42477d315af676dec11a4de4a8419abe8b2a437a727b0956",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_gdn.hpp"
+    },
+    {
+      "sha256": "e162705c27760e6b6d98a50cf37f771c86f6e3860a88f562c39041eb845d294c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_gr_norm.hpp"
+    },
+    {
+      "sha256": "93ede494356022cc968dc9c0e5c88acbb13d6e6c74dbce95b19c0aed6c4eda25",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_gr_postops.hpp"
+    },
+    {
+      "sha256": "93607043a9c79a324b59a4d9d55735108d0a6ff6347f8c685336ea5daecd0619",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_mmvq.hpp"
+    },
+    {
+      "sha256": "9c8c6f8eae5c2e41af97fb3815b312a9965f05dd6e479a1a33fddd9dcc97af9f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_moe.hpp"
+    },
+    {
+      "sha256": "fc0de228f02da292522e5b0f1d1b7adbbc6a4e05dc33ecccbc4196536be7d022",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_ple_postops.hpp"
+    },
+    {
+      "sha256": "e428cac7e200c66347dadbd347922f95f38453b9cd5d6eda186adeee6a4a621b",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_qsa_indexer.hpp"
+    },
+    {
+      "sha256": "17d5b45cbafaa28337aea98c1fb83a373a97a6d1d9b9c8596074e103e6a776f1",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_qsa_score.hpp"
+    },
+    {
+      "sha256": "aeb798bf1cde20d9de48894654da7359e1fd8bcf9c715d52a2f3382059cf4fbd",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_qsa.hpp"
+    },
+    {
+      "sha256": "81214eeb33e255ef46fc2526dbed10d8eda67749945d33fa2df3fef9cc45a33c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_rope.hpp"
+    },
+    {
+      "sha256": "d2768361364b2d3523e191646ae41e7ba8da57a7e65fa5f6626276c5f3ea9615",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\native_router.hpp"
+    },
+    {
+      "sha256": "78d2276e0d4f6280ac99bf7c480fe3f24715c35393914f6e95b36ac558b9e047",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\ngram.hpp"
+    },
+    {
+      "sha256": "4578ba7e748adae5b8fa95165960306f86e933ab3d7a655de1e373aa53eabb8c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\ple.hpp"
+    },
+    {
+      "sha256": "66f63279a3bee9a472866221ea494bd5079fd834fee06c1755c5fe62cee945a8",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\qsa_decode_attn.hpp"
+    },
+    {
+      "sha256": "6ade6425d67603d2a7d3521297379dd75d74455cb72493ecee02ee2ebe218f4f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\qsa_select.hpp"
+    },
+    {
+      "sha256": "8d7fe7dda8ca2bb5f678133aaa1051e34ee52c4acf416b01558a8fa9ceb7356e",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\qsa.hpp"
+    },
+    {
+      "sha256": "1562053f15ca5222bbbd932a3e7d0a4fdd37bc0e8e824fff3fa9727cd4897d2f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\quantize_act.hpp"
+    },
+    {
+      "sha256": "e4b19b3a546a1598465ed3c4bdbdf0802e504005fd3067a5c4df32cd181a24ce",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\rope.hpp"
+    },
+    {
+      "sha256": "70d83a76eae52cccfce605ea2cfb1d12e5f6bee442224536e14f999c2da13b86",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\router_top10.hpp"
+    },
+    {
+      "sha256": "6d19b92be6f95f09dbd8a3ab4fc3c9bdf856f7959bcd864d8190971e8769cff7",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\s_gemv.hpp"
+    },
+    {
+      "sha256": "0d8680c4b0dd2b0f4051130a0ff4e927512359afca7cc569d6759a1fc4cc7c84",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\s2_expert_grouped.hpp"
+    },
+    {
+      "sha256": "a4f947ef7cf24f132c013a6f06ac14485d807eb8fbb334c8677fc514313f17e8",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\s2_gemv_q8.hpp"
+    },
+    {
+      "sha256": "6edef4943809f67d63d60993962505af974001363d46bd72b97b121b364827a7",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\s2_gemv.hpp"
+    },
+    {
+      "sha256": "c7c966b1576d152e436c55e21bfc50916af930b94760e1da0950ea80faca70c4",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\sampler.hpp"
+    },
+    {
+      "sha256": "42ae0008e086af02439a35c67ee3dc778b2bc78f1be9fc806cbc1e36f22fd74c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\shared_expert.hpp"
+    },
+    {
+      "sha256": "318c338c63f4f139bae7deb07220679b9e19a7658b9544e06189fe32f04d2d2b",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\kernels\\verify_kernels.hpp"
+    },
+    {
+      "sha256": "82c7b09aac1112c810ecf8b6b26da3728e1c95f14dff17d8ab9192fcebbd0760",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\ngram\\ple_reader.hpp"
+    },
+    {
+      "sha256": "d321e6b56bd50671eba8f0af90792c7800154b166578297ca608f2b4f2a1799c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\plan\\plan.hpp"
+    },
+    {
+      "sha256": "ac4e3bda06c5671eb3a9c3a262ad7084bf686a9b0d256ab068dabcc94b530755",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\platform\\direct_file.hpp"
+    },
+    {
+      "sha256": "cd02c07cbd8187b18e2b1c2b2393e9fee48cd76e77c71dd406cd87f85df7dc7c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\platform\\memory.hpp"
+    },
+    {
+      "sha256": "8c9d00991137727a67f8437c9ddc5546d24a638384d0611104a056b48447222a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\prefill\\gemm.hpp"
+    },
+    {
+      "sha256": "73e6723a9b66948103b7aba67028d3bacef73aae9179c83a0f5d7b5214423b82",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\prefill\\kernels.hpp"
+    },
+    {
+      "sha256": "edbe17fae3fb6efbd3e28887e4c1960cc5d5c64d763b8f36aeab8eeb3a4bb9de",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\prefill\\prefill.hpp"
+    },
+    {
+      "sha256": "43d890895c451e321db696df818719f65b7f0b32a87ff7ad76ea915d205408ce",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\program\\logits_selection.hpp"
+    },
+    {
+      "sha256": "4429d18b63d3d4120e93000c45aa9fc2433ac1bc0f80896e07c6b3ecc75c5cac",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\spec\\controller.hpp"
+    },
+    {
+      "sha256": "d571ce30569c5c1942a269fa6ad82a86be792e6b6fbaeebb275094a8f449c877",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\include\\strata\\spec\\suffix_drafter.hpp"
+    },
+    {
+      "sha256": "efc57167bed65f87b473daec8d9338f266e29d6d39466710e865836e3c787ae4",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\README.md"
+    },
+    {
+      "sha256": "f856ddc1756300b953af711cfbbeb7959bc574ad20a646e3ced586fb162ab547",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\ref\\load.py"
+    },
+    {
+      "sha256": "1592937b9e067e3ecabb7d930da78f675e912d31d0990f05318f713f2882fc60",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\remote_experts_test.cpp"
+    },
+    {
+      "sha256": "5b38172f894574bf933b1e932a2dace1c113184f105bcd7db8718e6330f809c2",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\serve\\__init__.py"
+    },
+    {
+      "sha256": "75740ddbf8e6c98cf5d95b2960315709203dcabf2c6ea5d7367e10cdfcfe81b9",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\serve\\__pycache__\\__init__.cpython-312.pyc"
+    },
+    {
+      "sha256": "83a2736cc050280e6cc38942a48632324821f779288f6ee41afba28b705fd87c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\serve\\__pycache__\\frontend.cpython-312.pyc"
+    },
+    {
+      "sha256": "5495e9894f6522b24e65634e30c27c09d69b4176fba87a187104bf4e7a939f45",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\serve\\__pycache__\\server.cpython-312.pyc"
+    },
+    {
+      "sha256": "800a4164300807ba9239cc97b5604e8915a7c04d24c0281d9d05f585731eb480",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\serve\\chat_golden.json"
+    },
+    {
+      "sha256": "ae9644304511ef71f28e036b6f65b4c709880bc5a23b7d0b42125ec63a8c70ca",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\serve\\chat_template.jinja"
+    },
+    {
+      "sha256": "90b744af7c4e432de77b9fbf2955b112de392818e072b0ec7ad4333827ef2486",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\serve\\frontend.py"
+    },
+    {
+      "sha256": "7dc397e5f93378a4f46b72c4db540cb5b806d390e514b2059e390f3f5a170bc9",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\serve\\index.html"
+    },
+    {
+      "sha256": "203e34eb290f9b601fbe48319179ed4b7995380d893dcfe470a7d60ac1b3b756",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\serve\\server.py"
+    },
+    {
+      "sha256": "f07aeaf55d277a85cc922bb6b5173e4e6b5a6cd49d00b713282046ea9abe4a9c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\setup.py"
+    },
+    {
+      "sha256": "00bc2e382f2d64eb0e75d6e0152095dfea46baacd9e30b888c8554611853abf2",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\setup.sh"
+    },
+    {
+      "sha256": "6d12614fb57dec357c2841617b4b94ed084976f40533faf12b89dbf1d3a5bc1a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\artifact\\dequant.cpp"
+    },
+    {
+      "sha256": "9e6781b804c41658ce5493e98cf7691e3d7f7fd06a15d4573df3d61684caf3db",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\artifact\\gguf_reader.cpp"
+    },
+    {
+      "sha256": "2b9b06c948cdda39ad9036ac4dce149a2cd75065539238850ad6b712bdfd609d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\concurrent_main.cpp"
+    },
+    {
+      "sha256": "40c1a66338f20ae377b5b78a955cbb9bcbbbf845b18650c890a551a3547179d3",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\device_main.cpp"
+    },
+    {
+      "sha256": "71ccee83cae4cb6563e74aca61f9f23eedbdac21ba9fec30472cec33f4859d42",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\device.cu"
+    },
+    {
+      "sha256": "fa85d897b88836d8ca08d707d8ca12768e6805b7f1cc5c42227d355b82049eb2",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\expert_cache.cpp"
+    },
+    {
+      "sha256": "8e24328d3998b4cc0a004326da98eb3ab390cc83f8f772818c4e272915bcbc5c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\expert_source.cpp"
+    },
+    {
+      "sha256": "20657a3cedf0040cee00f88469dc51ec7305ceee6908f90e364dbf2e98f866a0",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\graph.cpp"
+    },
+    {
+      "sha256": "694a7cbebb11f09f5d99914e15a898b8bfb0bcfa71b8dc32adb59a3fae4e07a7",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\layer.cpp"
+    },
+    {
+      "sha256": "c009a12ffd715e0e458db48e625d7f32f2eb53f0da4f5e50418a86b353de6741",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\layout.cpp"
+    },
+    {
+      "sha256": "075203d7aef7aae96de6cf66cfe26b57520f69d9941b4adce8e748c0009e06ab",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\load_main.cpp"
+    },
+    {
+      "sha256": "762e66277160efb854dfd4fd548d196312162d1805b8cef8be66db26ca035bd2",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\mtp.cpp"
+    },
+    {
+      "sha256": "58d9f6f963721599ac696eadcc306deb65f48fa3c2d2b10114518b2f67659163",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\native_dense.cpp"
+    },
+    {
+      "sha256": "0759e7242615cb0a24eaa007e5759ec4ae9690e61427e5faa039f95acf88d93c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\native_head.cpp"
+    },
+    {
+      "sha256": "997228f8f35d51ee282880dd4dcbb53e200ad420a934f129e6b03601b59af2fa",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\overlap_main.cpp"
+    },
+    {
+      "sha256": "200274407b1d3f7d72396e2f58f67d6a9a1f64d0a528bddf4108aaf52dbc6f97",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\pinned.cu"
+    },
+    {
+      "sha256": "f834fd3fc811359a6ddc776da7abe75fdd3825d52a1258a8d34f00e3b8e63bd5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\remote_experts.cpp"
+    },
+    {
+      "sha256": "1058485606a181f520e65420227f4246e06e99a03b6755dde2bfbe5b650b70c8",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\session.cpp"
+    },
+    {
+      "sha256": "972e0bc98ed565830aea28cedafa32764b387412d7dd9927123e8aa5d48798d2",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\verify.cpp"
+    },
+    {
+      "sha256": "555ad07182fabda2f71e2afe15b8ad49aca0e681c9023219c1b0af0ffa961655",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\vision_request.cpp"
+    },
+    {
+      "sha256": "52eec7884caa11ef443fa66fcab1c45f8cd23b47419376aeb4d72c02fe4d2aba",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\core\\weights.cpp"
+    },
+    {
+      "sha256": "1eee87be9496c046fef50c66b36ab733b8b92a7f508c48dfa8f0fb14ee8fe1e6",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\bf16_gemv_parity.cpp"
+    },
+    {
+      "sha256": "3fdaedb898c292e750b955caa340894d9b3fe8aac944b5d83dbeef033442e4a9",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cpu\\expert_layout.cpp"
+    },
+    {
+      "sha256": "1209a0cc6990bc2ab3397824283f8bbc2afe94fd1405ac6bb64a718a9f939aa5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cpu\\expert_multi_test.cpp"
+    },
+    {
+      "sha256": "f617d9f9860981318e65fd01c8f11c4275c01da73830249df48266b5912177b9",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cpu\\expert_parity.cpp"
+    },
+    {
+      "sha256": "b60c0a6b03f01e6e390cf801253ec73c9c7dd480069af59e9a42549e6d2755fc",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cpu\\expert.cpp"
+    },
+    {
+      "sha256": "d2ada55bd131d4005b3a4ed63a3f1e8f2954b234ae3fb7d7c4fa31b34854b8f3",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cpu\\iq_avx512.cpp"
+    },
+    {
+      "sha256": "75b283e0c9de5c7eb494fe5b50044ab43b79d9fb258c009f3c1fd93234df0203",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cpu\\native_expert.cpp"
+    },
+    {
+      "sha256": "e08e11b5397ff648f3265c3cd59fb21e2dc984bffe80d515c99502976130bc8d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cpu\\pool_test.cpp"
+    },
+    {
+      "sha256": "0e9584cf803f09116decf5581caf1484618bdd973037b2f956beaeb761afedda",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cpu\\pool.cpp"
+    },
+    {
+      "sha256": "7907a5d44ec22178dcbe1ca18ee6558d80ea5eb5335377e4878b008537128000",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cpu\\q2_avx2.cpp"
+    },
+    {
+      "sha256": "d3f49cda2521538178ad4769a99724d1e311ccf11598cf37ef7a6e4a0647044e",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\bf16_gemv.cu"
+    },
+    {
+      "sha256": "14e556ff5dc0b6068df9ae1e3e00c604df5125a99e1c41bc7afb62fd03e36b48",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\dequant_bf16.cu"
+    },
+    {
+      "sha256": "01c4ab291bda6a5801dc68b623de730a996b06768514466a6461f169fadbbc9c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\dequant_s2.cu"
+    },
+    {
+      "sha256": "c31698a287345095048c8ddac31facb5d41d42912a830c1ca099f39fe1596961",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\elementwise.cu"
+    },
+    {
+      "sha256": "a555b91d8b57f9c5374db1d770d437385ff20533c7e5f3b76d812a64e608e37c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\fused_gdn.cu"
+    },
+    {
+      "sha256": "20fbc4b3fa525cbad3f00fc12de24551303bbdc4d08aaf5f7d64012e5f21286b",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\fused_gr.cu"
+    },
+    {
+      "sha256": "d59c482e149de52e2ee67dbfbb116da1d37171bad9d800f17b8cd998d4c5db7f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\gdn.cu"
+    },
+    {
+      "sha256": "31d0a387751e5f6220dcc687e85e4a42ecf3d6e9db4337481a9e17b3a0f3a523",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\gr.cu"
+    },
+    {
+      "sha256": "d059f7418318951b768841ee2a7c743eb5804aff8f37e106a37a335254dac1eb",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\iq_kernels.cu"
+    },
+    {
+      "sha256": "f7573cbd9a37de5a163938b78996aa7f96074ad5532068c6e8d4b8aa9f295229",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\kv_q8.cu"
+    },
+    {
+      "sha256": "a0e053cd17b3c59bb378605ac1768e92da18c446bf424a7d623544e40315f6a4",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_bf16.cu"
+    },
+    {
+      "sha256": "da6a890b7be905eea65412e63966e609c4de85623b9cf2c189a968162850345d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_flash_attn.cu"
+    },
+    {
+      "sha256": "0da1a8e90dbbc56ef20e20147ef0b5ab8a96ddc286cff3a5a940a7023c751774",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_gdn_preprocess.cu"
+    },
+    {
+      "sha256": "25792fa882054219d0c5ee78c38541bf9a7fb1b0020cb8ee92eaf377b669d794",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_gdn.cu"
+    },
+    {
+      "sha256": "511e5e4acd3cf95a7d14fe31fe95da5e2a8b644bf68c552711468159eadfc092",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_gr_norm.cu"
+    },
+    {
+      "sha256": "e5ac4f097ce0172b7d791d9fe468fd77b68bd95d70e7a731a926db1407f6a905",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_gr_postops.cu"
+    },
+    {
+      "sha256": "a04286677397a8c70e5a5888464830456e9d2cbc174ba8bc1ee66b31029c8181",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_mmvq.cu"
+    },
+    {
+      "sha256": "2495159b306e9b4ca0f46ea3b613a9edac0ea34d86e070a1b04d281420587c49",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_moe.cu"
+    },
+    {
+      "sha256": "1e06a0ca97d2dfa6ee54a417fabeb098fa7775e4ac7012b52ed4253cf8d3ba77",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_ple_postops.cu"
+    },
+    {
+      "sha256": "6f5d05e0f6b02305fb38885b22b5275f6615f56bba656ec4de0619f7e987c93a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_qsa_indexer.cu"
+    },
+    {
+      "sha256": "6c19cb5749e3d2588ad0626bce3f0bb754304da580844aff8ee8cfc88f4458c9",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_qsa_score.cu"
+    },
+    {
+      "sha256": "86813ac4c7cdb6b8e44aee802eeaf16ffc1319be142b60be0c955f97fba05939",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_qsa.cu"
+    },
+    {
+      "sha256": "b39a65d8644289a22352a790fbec0974a553d30d05f7afbcd1ca85ac34953ff5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_rope.cu"
+    },
+    {
+      "sha256": "175ac20f7d32315d48b44178fa4d728d14b5110afbd534a4a7f8b133f2671ec6",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\native_router.cu"
+    },
+    {
+      "sha256": "e32aa2d2c5dd4a8f96ec6ce924ab84d3ef8a3e2f0d1a1a917bfd530366fe4318",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\ple.cu"
+    },
+    {
+      "sha256": "7f12740c66f03ce351163bdda3ab6a6e3d69eab6b4e26359e4af2d6698dfc24d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\qsa_decode_attn.cu"
+    },
+    {
+      "sha256": "0c11e77c27ae5077bd2be8fd95dbbd23b8ff0b1facf000049cdcdac2812cc452",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\qsa_select.cu"
+    },
+    {
+      "sha256": "33431e56d5db0797a26eac83dfb09c9931f9317f239ed12d5887f62772510a6c",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\qsa.cu"
+    },
+    {
+      "sha256": "1ee1c77524e7cff36254a597d111ddba7d41b076440685b275e27bc4b453f386",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\quantize_act.cu"
+    },
+    {
+      "sha256": "3e25d43e637b2244370d1903c4cb808deb79b866397c9b8c4d356878334711cf",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\rope.cu"
+    },
+    {
+      "sha256": "427fdfd187c30e794ec72ddeb668a9dd9e7fc5feb36060c0fae792f42b69d50b",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\router_top10.cu"
+    },
+    {
+      "sha256": "f44231e04d888640954ab870a36d3f2970247b68b56c06775bf1d8aa217d737e",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\s_gemv.cu"
+    },
+    {
+      "sha256": "c42da213cde9562c9ff1b00e1e3d2f3538aff41b14439355c2bfb1a00a897d68",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\s2_expert_grouped.cu"
+    },
+    {
+      "sha256": "43814696ceb88c3314824b4e8c85447869664b0d57231fc8dbe616875a114fe7",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\s2_gemv_fast.cu"
+    },
+    {
+      "sha256": "0f0448c5b3055390e15104e1b7bccdb48fab1c49142b9d9bef8036dded8ee9ea",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\s2_gemv_q8.cu"
+    },
+    {
+      "sha256": "28104600cb2b238d3e448e772396dfa3348af1a6880b63f490acbb3054f81274",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\s2_gemv_quads.cu"
+    },
+    {
+      "sha256": "51bf69254ef0f180d80e3d107b4c37560877566847580625ca68e446b14a861b",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\s2_gemv.cu"
+    },
+    {
+      "sha256": "2fd4e83bbc69f814d99bd5dda83f62976c7e4577abf977cd026fd5e0a8b3f62f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\sampler.cu"
+    },
+    {
+      "sha256": "a90f191ca9b5fe47bfb8b96da46c6a5eedb1462149dcc95c1bb121f8582bbeac",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\shared_expert.cu"
+    },
+    {
+      "sha256": "45fe8ec470bf6009843f2c364639c6e6d48abb200f528ab347b0628826ba972f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\cuda\\verify_kernels.cu"
+    },
+    {
+      "sha256": "39f0ce3c3962daa5ee1e8367a37495aae0b6d84088349e11f413972eb1f8f133",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\dequant_bf16_test.cpp"
+    },
+    {
+      "sha256": "457961bd8eaf780ab07fb1203d475498bbf35576799dfc01264b66beae3ecb05",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\dequant_s2_parity.cpp"
+    },
+    {
+      "sha256": "dbc6397b32e706f7baf59a217dc7762a501c1f84d04b506a4fe5c6f5e9abd048",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\elementwise_parity.cpp"
+    },
+    {
+      "sha256": "ab66fb4c3e429f7c456a9c9a59b73cea27b880679b209ed5a089d4534a1f6d8d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\gdn_parity.cpp"
+    },
+    {
+      "sha256": "632310564dab3167184846144a69095bf915f50869b0b56be9d4adfeadbb29f1",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\gr_parity.cpp"
+    },
+    {
+      "sha256": "82d402af2037282f708a415d32513b49cf05b93f44c3dee3f9e65d24d57a1bd8",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\iq_parity.cpp"
+    },
+    {
+      "sha256": "a909e3c3cc9c49f157aa78f39589310dafbc2a011bb044609edf2de5c0cc110f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\kv_q8_parity.cpp"
+    },
+    {
+      "sha256": "a04dad414590b10707ed986d9b2b4ff597c00a6a53f3728b732d2bb178ff794f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\native_expert_parity.cpp"
+    },
+    {
+      "sha256": "a101ba454c0440cddbb3202c6fffd93ba9032f0a9afe4df0c43a66f7b5101417",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\ngram.cpp"
+    },
+    {
+      "sha256": "96a76a2fb30ae3c5ef202ad9117a520a2ba166d478d9284a4ea151d6a4390827",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\ple_oracle_vectors.inc"
+    },
+    {
+      "sha256": "14ba0aae11ffe97455f1c9221b10b8816d3a27e96c7bb14fcec176459d9819c4",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\ple_parity.cpp"
+    },
+    {
+      "sha256": "b3e7976992cc6e6e59c3b1628f210fe74391aa6ccf93691fb8f0940ef0452d5e",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\qsa_oracle_vectors.inc"
+    },
+    {
+      "sha256": "1f3541483bf861815e4c0b76fa824c85c4a9e98c5006992392170cbee712e466",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\qsa_parity.cpp"
+    },
+    {
+      "sha256": "27a455ebff9aa81eb3b127d7eb52236dad5522f26dfa799e56c19a351d687dc5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\quantize_act_parity.cpp"
+    },
+    {
+      "sha256": "744a0d3cdf4f84644bf735488ba8be4970244db020a40a1cb14fe8bc3a9acf1d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\rope_parity.cpp"
+    },
+    {
+      "sha256": "31e354dc61cb3f15c3909f7f8b61465575a1820360cade2eab492e5b6af19358",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\router_top10_parity.cpp"
+    },
+    {
+      "sha256": "5c4b53523ce3f534e43bc9c992ac261a6d67ef1fc3c08327556ce931532323aa",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\s_gemv_parity.cpp"
+    },
+    {
+      "sha256": "34e644081c04dcaeba2866dd34596afed7537371359e7a4e847a8ea2428e0e8d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\s_gemv_q8k_parity.cpp"
+    },
+    {
+      "sha256": "f461f083252895ba7c8b49b5232192110f4f668ddef1c8ba6d0ef7856f8139f7",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\s2_gemv_parity.cpp"
+    },
+    {
+      "sha256": "1920d3d80937cfc29b36169992f298ecb32626ad23513243bf1996feca673cff",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\s2_gemv_q8_parity.cpp"
+    },
+    {
+      "sha256": "a5ca480a7f57e5354d80de63340ea67e7aff1a4be80d7e6300c11ab6a3cf9800",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\sampler_parity.cpp"
+    },
+    {
+      "sha256": "7f7c35c8005ac3d81b278ce1e22183224c419dc1247b2ee01d240921e6ca8a4d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\kernels\\shared_expert_parity.cpp"
+    },
+    {
+      "sha256": "545bc90ecbdfd0c04662e32a4581e916169a45637231e58fadc58df18a40cf2b",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\ngram\\ple_reader_test.cpp"
+    },
+    {
+      "sha256": "60d90f5bc3d6dd99399109774345cf87598a3ba30ea664405df4b5ea3cac863f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\ngram\\ple_reader.cpp"
+    },
+    {
+      "sha256": "85dd5fa5f07fe87406cb04158c515a9e3bd2325e8d0dd11d1e7b2311f933b46f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\plan\\plan_main.cpp"
+    },
+    {
+      "sha256": "c4f4eac41879b43ceb832600e9d475672d5d4f6703ba5c217293f0de280927bf",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\platform\\direct_file.cpp"
+    },
+    {
+      "sha256": "341d516a2c679ab3f157ab2d6561f432cb8772d81ab26928174c3f5688bcf8f2",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\platform\\memory_test.cpp"
+    },
+    {
+      "sha256": "1087718d472dcdd36d4c73f5c950afd4c3699ff26ad9fa9601ddf618a7d1298d",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\platform\\memory.cpp"
+    },
+    {
+      "sha256": "648a511e493c8d6e99f91b46ae537a20dc2584cef572bde33c2f195ce79016f5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\prefill\\gemm.cu"
+    },
+    {
+      "sha256": "820150bdaf2125a80cc5612f300cf3948da735d813b53209b2fb93544194b504",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\prefill\\kernels.cu"
+    },
+    {
+      "sha256": "987799f0a336759fbc7496caaf2aaf166fe48b208b2808813cdf2a0ab7adcc53",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\prefill\\prefill.cpp"
+    },
+    {
+      "sha256": "430a09034faf93110ff51da5c3c77f0b046d9cca4f1c7b38e2efdf97f2017d9b",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\program\\generate.cpp"
+    },
+    {
+      "sha256": "ab4e8fadd9ddcaeb99f5cef1cd29464f8bcb5a9583b9e878c70415d67068acc7",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\spec\\controller_test.cpp"
+    },
+    {
+      "sha256": "0996b7ef0640eaf73b8e75d894ba5f87b9da98594163b08285580dbbb76485e9",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\spec\\controller.cpp"
+    },
+    {
+      "sha256": "d099c70ef6958a18a4b2201d30801a9812d9f7f1cc5103118e239416aa9fd5fd",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\spec\\suffix_drafter_test.cpp"
+    },
+    {
+      "sha256": "cb6e96dde1d89c0f5cf8e6d2906924054999cecdd486530ea020aacffcd777aa",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\src\\spec\\suffix_drafter.cpp"
+    },
+    {
+      "sha256": "5a89a45673ce8a05c1a0d85047b656c13850f077e9331c1e93885ef8b2c26de4",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\START-HERE.bat"
+    },
+    {
+      "sha256": "3ac6eed12695ceea1acd18f556845023a45f92f6ce0530c18c70bb10450207ea",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\third_party\\ggml\\ggml-common.h"
+    },
+    {
+      "sha256": "bcd8ec749126d45cb06737d0690295d73df4b6e7e194205bcf91190368f27285",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\third_party\\ggml\\LICENSE"
+    },
+    {
+      "sha256": "40ccf0b0f1bd8a50f42d6c397311e86a8992bcc9c10488fe3f910e134fb53c13",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\third_party\\ggml\\VERSION.txt"
+    },
+    {
+      "sha256": "0189f92ecc216d1f545a15852b869862bb509ab267c99dc5d84e0faf95a68287",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\__pycache__\\strata_tokenizer.cpython-312.pyc"
+    },
+    {
+      "sha256": "563cdedb0bb6a3721f09cef7b55be4b4929b0fdc88e2103407f0fb8c9328c57a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\_paths.py"
+    },
+    {
+      "sha256": "5496e71367ecb62288860140bfc396fb271d2844e985beb7aceb6de2f4113499",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\canonical_xcheck.py"
+    },
+    {
+      "sha256": "a93fd735d956dd8415314888e55f281f653573c21a5f2006f44982016f6926a2",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\gguf_reader.py"
+    },
+    {
+      "sha256": "1974d67916e71b228cb59b302ee4c7ab4632361e5a8b9d1cb890bc8fbd47a09f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\gguf_writer.py"
+    },
+    {
+      "sha256": "287fd0ad402e8b0549f0f6525d3594cc50838084ce9e958c19a1facd322aa669",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\iq_pack.py"
+    },
+    {
+      "sha256": "58c986c38ec28b7386b547987c8366d77ebc5f32c8bf9cc17cf7b8164b13eadf",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\mtp_fetch.py"
+    },
+    {
+      "sha256": "688955f88cad01f313f86120d3d981e51fafe12dbc1c429e719df97032a69e5f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\mtp_pack.py"
+    },
+    {
+      "sha256": "8d4649ba90c27fedf6d1dee26382cf74123d00d141947f117bd7c8446136fe14",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\mtp_rt.py"
+    },
+    {
+      "sha256": "ffc349dbbb08689ce1ef68bbf5916b303b7142de6914245bafa11afa65ebe4a0",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\pack_index.py"
+    },
+    {
+      "sha256": "00db7e3115f0cefefbfa419d147d3e300b366a6c122321e8eba5245d70c0c6fc",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\pack_layer.py"
+    },
+    {
+      "sha256": "91c9252339433ee326fbbdf3bdaca081b12ad14014c43bebf22d7ce8800f43b5",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\strata_pack.py"
+    },
+    {
+      "sha256": "ef0423df0e1c77e0d5083c8e3a992151adf8361f5441565487f66e068c45c97f",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\strata_tokenizer.py"
+    },
+    {
+      "sha256": "c9e1a67fd585b8fc203ad1d198cea60e623e927ce930dddceff5778cbb123965",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\vision\\CMakeLists.txt"
+    },
+    {
+      "sha256": "89fed585f1cdc96fcbd9a6a98b85f16788ef820c309828e4562f06c09b85e795",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\source\\tools\\vision\\strata_vision.cpp"
+    },
+    {
+      "sha256": "df35e68cd90ddbc5651250e5d954df48f0f8a97529b952a1445b5ddc396bafbe",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\transport_test.cu"
+    },
+    {
+      "sha256": "7828770bcf5bdaeca25f91a3a08e7bdb3018d36cbf09166bc347468ca4cfb0db",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\verify_wait_test.cu"
+    },
+    {
+      "sha256": "926535b4a5902f684b741c6c54cf89dc6a15a5b86c54a23d23f4f452e7686675",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\vision_mrope_test.cu"
+    },
+    {
+      "sha256": "0ba70aa9aefba0a66d42be83279bef722678b309f9c67468f8437f86b35e0a8a",
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\vision_protocol_test.cpp"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\native.log",
+      "sha256": "9373de10116378a36645ed22d207e39258dd5cb4202ef20d0b8054c2e451b628"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\command.json",
+      "sha256": "d9d0f1d4ef95afbe9f487c0ce7ef03de9f479485d04239f43a5e2a83940ef0af"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\observer.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\telemetry.jsonl",
+      "sha256": "78b30da4173d943e6ea466d07c5cf97b5b37dc2cfe4941a3ff28d0b7ff9ee8e1"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\child-result.json",
+      "sha256": "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\job-attached",
+      "sha256": "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\native.log",
+      "sha256": "5a596a8e5e9aca1ffbc702fff8c0254c92cf2b47288de1e968f4b8ee61960605"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\command.json",
+      "sha256": "fd92db8717ef2f9a8dbb451d4c5ddba23e37c88aa7e52493eaf01ebc7beb7cb3"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\observer.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\telemetry.jsonl",
+      "sha256": "ddd1ecae07d1f75c08eded276e66ef61cc77a9e0753a817669f63c6d30f735bc"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\child-result.json",
+      "sha256": "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\job-attached",
+      "sha256": "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\vision_numeric.py",
+      "sha256": "f1f9198b0c75122491441378b4b5df48c92d774707f080960969e1f3fce8f79c"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\results.json",
+      "sha256": "9933697b20253220881d37f3777170b7cb3a211173bcfe28a3fca94d157e7a4a"
+    }
+  ],
+  "numerical_gates": {
+    "mtp": {
+      "passed": true,
+      "exit_code": 0,
+      "before": {
+        "ram_free": 56251633664,
+        "commit_free": 65439526912,
+        "commit_used": 21033742336,
+        "commit_limit": 86473269248,
+        "system_cache": 11382550528,
+        "gpu": [
+          [
+            0,
+            15178,
+            35
+          ],
+          [
+            1,
+            16038,
+            31
+          ]
+        ]
+      },
+      "after": {
+        "ram_free": 56970395648,
+        "commit_free": 66263707648,
+        "commit_used": 20209561600,
+        "commit_limit": 86473269248,
+        "system_cache": 11872587776,
+        "gpu": [
+          [
+            0,
+            15216,
+            36
+          ],
+          [
+            1,
+            16038,
+            34
+          ]
+        ],
+        "peak_process_bytes": 2723700736,
+        "peak_job_bytes": 2741063680,
+        "owned_private_bytes_current": 0,
+        "owned_private_sample_complete": true,
+        "owned_private_processes": []
+      },
+      "log": {
+        "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\native.log",
+        "sha256": "9373de10116378a36645ed22d207e39258dd5cb4202ef20d0b8054c2e451b628"
+      },
+      "command": {
+        "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\command.json",
+        "sha256": "d9d0f1d4ef95afbe9f487c0ce7ef03de9f479485d04239f43a5e2a83940ef0af"
+      },
+      "bound_evidence": [
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\native.log",
+          "sha256": "9373de10116378a36645ed22d207e39258dd5cb4202ef20d0b8054c2e451b628"
+        },
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\command.json",
+          "sha256": "d9d0f1d4ef95afbe9f487c0ce7ef03de9f479485d04239f43a5e2a83940ef0af"
+        },
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\observer.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\telemetry.jsonl",
+          "sha256": "78b30da4173d943e6ea466d07c5cf97b5b37dc2cfe4941a3ff28d0b7ff9ee8e1"
+        },
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\child-result.json",
+          "sha256": "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32"
+        },
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-mtp-fresh36x9\\job-attached",
+          "sha256": "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75"
+        }
+      ],
+      "purpose": "fresh36x9",
+      "marker": "PASS mtp_equivalence fixtures=36 modes=9 probability_bits=exact",
+      "test_executable_sha256": "29391349e60565cbe0b2e3424dd9e4a94a76cbce85f64a79c6c982094d6598ff"
+    },
+    "remote12": {
+      "passed": true,
+      "exit_code": 0,
+      "before": {
+        "ram_free": 56969203712,
+        "commit_free": 66261024768,
+        "commit_used": 20212244480,
+        "commit_limit": 86473269248,
+        "system_cache": 11872595968,
+        "gpu": [
+          [
+            0,
+            15216,
+            36
+          ],
+          [
+            1,
+            16038,
+            34
+          ]
+        ]
+      },
+      "after": {
+        "ram_free": 56901193728,
+        "commit_free": 66190057472,
+        "commit_used": 20283211776,
+        "commit_limit": 86473269248,
+        "system_cache": 25677926400,
+        "gpu": [
+          [
+            0,
+            15195,
+            39
+          ],
+          [
+            1,
+            16038,
+            36
+          ]
+        ],
+        "peak_process_bytes": 15511830528,
+        "peak_job_bytes": 15528955904,
+        "owned_private_bytes_current": 0,
+        "owned_private_sample_complete": true,
+        "owned_private_processes": []
+      },
+      "log": {
+        "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\native.log",
+        "sha256": "5a596a8e5e9aca1ffbc702fff8c0254c92cf2b47288de1e968f4b8ee61960605"
+      },
+      "command": {
+        "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\command.json",
+        "sha256": "fd92db8717ef2f9a8dbb451d4c5ddba23e37c88aa7e52493eaf01ebc7beb7cb3"
+      },
+      "bound_evidence": [
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\native.log",
+          "sha256": "5a596a8e5e9aca1ffbc702fff8c0254c92cf2b47288de1e968f4b8ee61960605"
+        },
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\command.json",
+          "sha256": "fd92db8717ef2f9a8dbb451d4c5ddba23e37c88aa7e52493eaf01ebc7beb7cb3"
+        },
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\observer.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\telemetry.jsonl",
+          "sha256": "ddd1ecae07d1f75c08eded276e66ef61cc77a9e0753a817669f63c6d30f735bc"
+        },
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\child-result.json",
+          "sha256": "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32"
+        },
+        {
+          "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\numerical-runs\\vision-remote-selected12\\job-attached",
+          "sha256": "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75"
+        }
+      ],
+      "purpose": "selected12",
+      "marker": "PASS remote_experts_selected12 layers=12 ids=28,29,30,32,34,35,37,42,43,44,46,47 payload_bytes=13526630400 allocation_bytes=14027026728 blob_cases=24 decode_calls=12 prefill_calls=13 blob_bytes=exact quant_bytes=exact outputs=exact large_prefill_bytes=209715200 chunk_bytes=16777216 owner_teardown=exact optimized_over8=rejected layer_coverage=all mode=original",
+      "test_executable_sha256": "f2c7701a4f4c055adf2f1054f0f4f8b09193ac166102ae09e3439c8732554637"
+    }
+  }
+}

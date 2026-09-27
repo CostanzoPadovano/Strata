@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "purpose": "equivalence",
+  "scope": "Real MTP-layer parity, synthetic residuals; no full main experts/PLE/generation",
+  "profile_gap_ms": null,
+  "profile_chain_batch": null,
+  "limits": {
+    "ram_floor_gib": 0,
+    "commit_floor_gib": 4,
+    "job_cap_gib": 8,
+    "gpu_start_floor_mib": 0,
+    "gpu_floor_mib": 0,
+    "vram_reserve_mib": 3072
+  },
+  "executable_sha256": "fd311648c20e17d435f005580a992c175a3c60ea7c86af6fedff350d7e1a71cb",
+  "engine_executable_sha256": "f7d5bf01b658adec393e8d86a92d3da7026967b5179d910bfbebda46645d82d2",
+  "gates_sha256": "d6425d7db1b297afd629bbec97552c3933c14735fc8c9f212f04df9edfde9144",
+  "layer_ids": [
+    22,
+    24,
+    28,
+    30,
+    33,
+    34
+  ],
+  "payload_bytes": 0,
+  "fixtures": 36,
+  "modes": 9,
+  "probability_bits": "exact",
+  "bound_evidence": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\mtp22\\result.json",
+      "sha256": "39f993310ff68ae19418dfc7dacd08d09648432b5c1c088523413287eb727723"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\mtp22\\native.log",
+      "sha256": "9373de10116378a36645ed22d207e39258dd5cb4202ef20d0b8054c2e451b628"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\mtp22\\probe.json",
+      "sha256": "bc8959eaef12518335963260432092a9fcbf08a613c225a4c9ea2e7ba491933d"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-advanced-20260926\\parity-runs\\mtp22\\command.json",
+      "sha256": "3a79737092a5b9d8601ef56c570e6d9bfb1e26c488619c7d43e245be688f2639"
+    }
+  ]
+}

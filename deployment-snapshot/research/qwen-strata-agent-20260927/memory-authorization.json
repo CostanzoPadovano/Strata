@@ -1,0 +1,28 @@
+{
+  "campaign": "qwen-strata-agent-20260927",
+  "authorized_utc_date": "2026-09-27",
+  "authorization_quote": "Autorizzo tutto",
+  "authorized_profile": "agent-90k-experimental",
+  "context_ladder": [4096, 8192, 16384, 32768, 65536, 98304],
+  "limits": {
+    "ram_floor_gib": 8,
+    "commit_floor_gib": 4,
+    "job_cap_gib": 60,
+    "gpu_start_floor_mib": 0,
+    "gpu_floor_mib": 0,
+    "gpu_temperature_limit_c": 80,
+    "max_visible_gpus": 2
+  },
+  "scope": [
+    "isolated Strata source, numerical, load, context, and Pi-agent trials",
+    "bounded 4096 -> 98304 context ladder",
+    "zero free-VRAM floor while all other listed limits remain enforced"
+  ],
+  "not_authorized": [
+    "OS, pagefile, driver, firmware, or clock changes",
+    "closing unrelated applications",
+    "changing global Pi or ISTA launchers",
+    "production promotion",
+    "commit, push, or pull request"
+  ]
+}

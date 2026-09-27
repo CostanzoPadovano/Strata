@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "profile": "agent-90k-experimental",
+  "gpu": 0,
+  "official_exe_sha256": "f1072687e794aa5958f121c8967983947b5ea1322fa336c60688cfdc7736742f",
+  "source_gates_sha256": "4f3a39517bc670eb59810508a7c86e375f68d8bbc1643687a614f7be7ca8c1ce",
+  "ready_state_resource_check": true,
+  "vram_reserve_mib": 700,
+  "gpu_start_floor_mib": 0,
+  "gpu_floor_mib": 0,
+  "pool_workers": 8,
+  "device_visibility": "0,1",
+  "base_config_sha256": "4a78e18d70df447346abc465e20c67af9eb3d103f3ded508a847803ae0fc03b1",
+  "run": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-vision-20260927\\runs\\debug-20260927-124230-896600-output98k-load"
+}
