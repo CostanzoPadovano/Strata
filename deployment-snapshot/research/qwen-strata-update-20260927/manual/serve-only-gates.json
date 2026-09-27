@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "qualification": "offline-startup-only-derivative",
+  "model_started": false,
+  "parent_source_gates_sha256": "bdcde0c94faec4ead733fd92ebb3d19a8ae469d7c1a3feca9ee2ab68b6532e82",
+  "bound_files": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\serve_only_server.py",
+      "sha256": "95e94eb94c3ca5d16fe4cf7fbe77a6fd52cdc199601c55c5d56749c7e3bbbe8b"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\serve_only_guard.py",
+      "sha256": "534c07eac8e94e837399da5cd535514d06e5f6a5c04b678a3719efbf69214d85"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\serve_only_derivation.py",
+      "sha256": "a815b1b305ec4a962d05d59b77371f09bc90406d39b9bcb3d6172b5f356a9234"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_serve_only.py",
+      "sha256": "0d2e349edf7ad3fd6f47fb9e2bf20d2c9745aee5273adcd6c36c5be1c883bc75"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\prepare_serve_only.py",
+      "sha256": "776773bc3b19c46371c0d5afbee8b0801db96fc5d712eca3282c857edbd70d19"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\vision_user_launcher.py",
+      "sha256": "979f528776dbb674bcb76b848e9b089a3bed730844662a9526a6bf1e4d827bf9"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\manual_guard.py",
+      "sha256": "706e18c7a0308f42472474049dc5f5d09ae7495b02a7f72d495c19c3c689a979"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\serve-only-tests-1790517092968323000.log",
+      "sha256": "2122acd4dc33d7dc2d43d256e91417fa00662e57223107851b3155abd4b31d18"
+    }
+  ]
+}

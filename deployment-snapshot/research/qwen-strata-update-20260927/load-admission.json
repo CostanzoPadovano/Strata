@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "profile": "agent-90k-experimental",
+  "gpu": 0,
+  "official_exe_sha256": "2e630a0b125a0b4f2be300678216d8aca2e086d1e5c2d9cb54855b55685c4c77",
+  "source_gates_sha256": "bdcde0c94faec4ead733fd92ebb3d19a8ae469d7c1a3feca9ee2ab68b6532e82",
+  "ready_state_resource_check": true,
+  "vram_reserve_mib": 700,
+  "gpu_start_floor_mib": 0,
+  "gpu_floor_mib": 0,
+  "pool_workers": 8,
+  "device_visibility": "0,1",
+  "base_config_sha256": "e752d0af3abf5ea9a553bad99a13aed8cada6fdfb7e22221e43c9d2d3327d9ef",
+  "run": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-r2-98k-load"
+}

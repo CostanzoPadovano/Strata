@@ -3,7 +3,9 @@
 This is an **experimental local fork**, not a new Qwen model or a claim of
 upstream performance/quality equivalence. Native source is based on Strata
 `6da1f667e86558b152ab128edf3ebf77a80a9e57`. The root source is the tested local
-vision/static-owner snapshot. Original author: [Niko1221/Strata](https://github.com/Niko1221/Strata).
+cache/idle/vision/static-owner snapshot with a selective v0.1.3 backport, not a
+full v0.1.8 update. See [CACHE-IDLE.md](CACHE-IDLE.md) for current evidence and
+the owner's successful manual `/compact` report. Original author: [Niko1221/Strata](https://github.com/Niko1221/Strata).
 
 ## Tested hardware and software
 
@@ -17,7 +19,7 @@ vision/static-owner snapshot. Original author: [Niko1221/Strata](https://github.
 | Build | CUDA 13.3.73, SM120, MSVC 14.51.36231, C++20 |
 | Client | Pi 0.87.1, Node 22.23.0, Ubuntu-24.04 under WSL2 |
 | Model | ISTA-DASLab Qwen3.8-Flash-Next GSQ-RCO IQ3_XXS, two GGUF shards |
-| Native vision executable SHA256 | `f1072687e794aa5958f121c8967983947b5ea1322fa336c60688cfdc7736742f` |
+| Frozen cache/vision executable SHA256 | `2e630a0b125a0b4f2be300678216d8aca2e086d1e5c2d9cb54855b55685c4c77` |
 | llama.cpp/ggml dependency | `3cf03257f219afbe7334045ff7c6a06ac68c627d` |
 
 PCIe is asymmetric: GPU0 reported Gen5/x8, GPU1 Gen4/x4; CUDA peer access was
@@ -36,7 +38,9 @@ Manual trial formula: `sum(tokens) * 1000 / sum(native milliseconds)`.
 Prefill: 122987 / 652.0731 s. Decode: 4261 / 111.7253 s.
 [Numeric-only request rows](local-evidence/pi-trial.json) exclude the four
 startup probes. No prompt text, request bodies or Pi sessions are published.
-No prefix reuse was demonstrated: entire prompts were processed again each turn.
+That historical F107 trial predates conversation caching: entire prompts were
+processed again each turn. The new bounded cache has separate evidence in
+[CACHE-IDLE.md](CACHE-IDLE.md); these rates are not its benchmark.
 Native times exclude cold model loading, image encoding, tools and client overhead.
 
 The manual trial lasted about 24 minutes: sampled Strata physical working set
@@ -77,10 +81,11 @@ session, four-hour stability, model quality or scientific validity.
 - Fresh images additionally need 10 GiB RAM / 6 GiB commit free, including
   normal floors. Enter requests orderly stop; closing the owner kills its Job.
 
-The final serve-only observer has three offline tests plus a successful
-read-only Desktop `--check`; it has **not been live-retested** after removing
-startup probes. Existing native/load/vision proofs were retained unchanged,
-not falsely relabeled as new execution evidence.
+The original F107 serve-only publication had offline checks only after removing
+startup probes. The current cache build subsequently passed fresh components,
+4K/98K load/cache/vision and actual Pi checks; the owner then reported successful
+normal use including compaction. This supersedes that startup-only limitation,
+not the scientific/quality/organic-98K limitations below.
 
 **Open risk:** upstream/cache-on versus CPU-miss numerical divergence is not
 fully retired. Kernel tests and functional outputs do not prove full-model

@@ -1,4 +1,5 @@
 {
+    "engine_sha256":  "2e630a0b125a0b4f2be300678216d8aca2e086d1e5c2d9cb54855b55685c4c77",
     "contains_model_weights":  false,
     "files":  [
                   {
@@ -1897,6 +1898,11 @@
                       "bytes":  2389
                   },
                   {
+                      "path":  "research/qwen-strata-stock-20260926/official-engine/strata-vision.exe",
+                      "sha256":  "98ffde98f5388b518d8581b2983973d785f20f00a21e5e82393b38f4188e094c",
+                      "bytes":  90725376
+                  },
+                  {
                       "path":  "research/qwen-strata-vision-20260927/python-gates-1790504573975439500.log",
                       "sha256":  "34cad300d7d9bed78fd4ffc56fa00748daa4ec33b729155e455a4cb7de711219",
                       "bytes":  131
@@ -1967,6 +1973,686 @@
                       "bytes":  828
                   },
                   {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-4k-cache/result.json",
+                      "sha256":  "b091ee5f1998876faf09fe245697b260ed6006c793ddd0f02c6d342374498635",
+                      "bytes":  3620
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-4k-cache/probe.json",
+                      "sha256":  "5b9e0531fe025035aa7f1c0be6641dad3e52bc03cc5e01e259f0a55b591e8851",
+                      "bytes":  14917
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-4k-cache/timings.jsonl",
+                      "sha256":  "cf5f1a8d5f748f3bd6f21cd3a098e8257606f95fb9f76c57a6670c5eaacfaa38",
+                      "bytes":  10714
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-4k-cache/telemetry.jsonl",
+                      "sha256":  "625f52584af7c7c3e35de03708236dc5a44bb37397cc7ed96fd22b929add5444",
+                      "bytes":  124692
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/cache_guard.py",
+                      "sha256":  "72200e7a81cba048c8478499e4d19e9ee4f583048642b0ab76d9daa48a5c13d6",
+                      "bytes":  2184
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/cache_probe.py",
+                      "sha256":  "ced7b50061491b1a7df648e35f169fd82f89ca5b9aba0c1cb21e4e51c5744b13",
+                      "bytes":  8741
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/cache_protocol.py",
+                      "sha256":  "2830516dee1ee9d0e3aca30ee5b42a0ff419771daf44ee05b88f485d62b82100",
+                      "bytes":  949
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-98k-cache/result.json",
+                      "sha256":  "0b2ab1df8be60084bc25c1858539cbb3f00b28bbe7316f7c13fd9f7f17b6b7e5",
+                      "bytes":  3620
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-98k-cache/probe.json",
+                      "sha256":  "379c993da1f865fc4bc9577c9479abcdd77325f7543733cab9932feeb940dac0",
+                      "bytes":  18422
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-98k-cache/timings.jsonl",
+                      "sha256":  "611dfbb99a2b3cea0f475da871ff116da6417c038e371710a286541be5850a05",
+                      "bytes":  13270
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-98k-cache/telemetry.jsonl",
+                      "sha256":  "7d718e1c5dbde2d136ae4f97eaabb8df16fc765a81e1b4cc98d1c93a7ffd8a23",
+                      "bytes":  339653
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-encoder03/result.json",
+                      "sha256":  "d3c3afe61064002d5d26bba5bc30f3782ad586a7b94d184a759500c16a950f63",
+                      "bytes":  115
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-encoder03/probe.json",
+                      "sha256":  "3525d423c40b34825773ae35cdb4db9092cf4a9783c7471f061f23d393fd9145",
+                      "bytes":  1529
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-encoder03/encoder.log",
+                      "sha256":  "778ced8af7675a5a2c7ca944f5a3726340e079207251e24e70c3f1dbcf699392",
+                      "bytes":  975
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-encoder03/telemetry.jsonl",
+                      "sha256":  "e391a6aa473c293ae3effc521c1a46726e869233d576009837b6d2f09e3a93fd",
+                      "bytes":  54860
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/cache/native.log",
+                      "sha256":  "b3c36a4a6f1c4c8efb5091d21faf4f4d01541a46493aaab7de97a6fb67291692",
+                      "bytes":  186
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/cache/command.json",
+                      "sha256":  "cc5075e1d29c373cea2898ae56f6f2d42c463bdd81970162e31aaa7a4d765b34",
+                      "bytes":  282
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/cache/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/cache/telemetry.jsonl",
+                      "sha256":  "e677ea9616da31aae76fb60de739763a9544759ff1e0eea6997affbdc7871f66",
+                      "bytes":  510
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/cache/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/cache/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/pool_idle/native.log",
+                      "sha256":  "acbe5eb16265c8044da6c0ed99563b6616a53fe10cd3580f540244044f05e594",
+                      "bytes":  212
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/pool_idle/command.json",
+                      "sha256":  "245453fd247adea307fa0f9cf71028f5d8db84c08dbae17b072c1ce38213d87d",
+                      "bytes":  267
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/pool_idle/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/pool_idle/telemetry.jsonl",
+                      "sha256":  "9003bc5c4a48d94207fde930c8af56c0570ef0559328ce3bd6c92806c73ecfe0",
+                      "bytes":  1690
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/pool_idle/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/pool_idle/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_protocol/native.log",
+                      "sha256":  "0c8b961a5dbc5428abe8944e0f6566867afc916b368da0e3e7bf210ca1511ae5",
+                      "bytes":  104
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_protocol/command.json",
+                      "sha256":  "cb44bf93c346bd3b483d9d4712e2a0c979e672063fbf7a80fa629400a37287d8",
+                      "bytes":  250
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_protocol/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_protocol/telemetry.jsonl",
+                      "sha256":  "155cb800d25fc0cccbb82699dbcda41b2622b1daefbe0b5b98c08b8ed3daf978",
+                      "bytes":  510
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_protocol/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_protocol/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_mrope/native.log",
+                      "sha256":  "cfb81318e474cb8e11825fdf69d92b49a5f0107d197b0ed1ee02bad696b893ff",
+                      "bytes":  84
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_mrope/command.json",
+                      "sha256":  "1b60e16cde45a84624056c160be7bee411ebad8b0255cc40c7a7e3f17f9804c6",
+                      "bytes":  245
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_mrope/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_mrope/telemetry.jsonl",
+                      "sha256":  "709432cf4b31a1857014ef10300c48c0037279a33c59b782c02a1e98beef0116",
+                      "bytes":  510
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_mrope/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/vision_mrope/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/transport/native.log",
+                      "sha256":  "a3c37c1c38b462e0335df0398e9688c6362679cca13662128deefd47315d0cad",
+                      "bytes":  195
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/transport/command.json",
+                      "sha256":  "0769e84a3ea432a83e69a555bdf65c489b70aa99b1d9d4aabf7dc6705cde10c0",
+                      "bytes":  232
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/transport/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/transport/telemetry.jsonl",
+                      "sha256":  "77bf5aa809b0a466ee762b0fbcf253e9233e07c6282d3b36bb7979bb273ac05f",
+                      "bytes":  512
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/transport/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/transport/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/registration/native.log",
+                      "sha256":  "20a26f946412ab087d735e6789d72a8f03e2754a28db0cc7e0a6ec6f1a8e3ce3",
+                      "bytes":  1001
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/registration/command.json",
+                      "sha256":  "545df6c909fb738634bf0c0fdb81288ac7324705a4f01160cfc2e464ec4df182",
+                      "bytes":  240
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/registration/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/registration/telemetry.jsonl",
+                      "sha256":  "78708e4895a708faed6b466671c03b422b650242be61774eb2fa4d1daaa0195e",
+                      "bytes":  509
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/registration/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/registration/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/embedding/native.log",
+                      "sha256":  "86b4efe81496f185eeede0f4f830221c79e966c6820c4eb25cdb084fe6f0a60d",
+                      "bytes":  86
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/embedding/command.json",
+                      "sha256":  "464b427b69910a54b4afc38e72c31fe13b713b9ff940ba157b04db4cddd0f2f4",
+                      "bytes":  247
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/embedding/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/embedding/telemetry.jsonl",
+                      "sha256":  "5a411e9e717e6613993fce1f81c2a81c2196aed8ffbb97be2a8ee1a9dec95a84",
+                      "bytes":  511
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/embedding/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/embedding/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/compacted_loader/native.log",
+                      "sha256":  "611f4bfae34e1de7098d22f710b4bb9b1b8bbcaad1f07c2c562c43dd82644e45",
+                      "bytes":  973
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/compacted_loader/command.json",
+                      "sha256":  "03aaf121d3d2a81ebccfac64eff99b5a3f4ce1d767a0068c89139b212a6281bb",
+                      "bytes":  390
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/compacted_loader/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/compacted_loader/telemetry.jsonl",
+                      "sha256":  "c7ffd426e6a84bf4f2013e96047b7d692693373ed44aa6bb50f2f25d82191492",
+                      "bytes":  511
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/compacted_loader/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/compacted_loader/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/verify_wait/native.log",
+                      "sha256":  "4d6ef86a037776eed70533f7579924a62dc42b364ab562d2bd86b00957238592",
+                      "bytes":  281
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/verify_wait/command.json",
+                      "sha256":  "7f6e265cb786a60a2987313a286f38c825f3709500952436bd98a1aca3dad2bb",
+                      "bytes":  225
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/verify_wait/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/verify_wait/telemetry.jsonl",
+                      "sha256":  "65e44f9bb584cfa53c759ae485648c5b7061ee302ed9e9a7e101c06808d8e5e4",
+                      "bytes":  511
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/verify_wait/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/verify_wait/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/mtp/native.log",
+                      "sha256":  "9373de10116378a36645ed22d207e39258dd5cb4202ef20d0b8054c2e451b628",
+                      "bytes":  12395
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/mtp/command.json",
+                      "sha256":  "298abe1fd6ca7d6c6ace214f7dafe079d519eef18a1f0b4fcdb3266cdfaec782",
+                      "bytes":  669
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/mtp/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/mtp/telemetry.jsonl",
+                      "sha256":  "81cc08bbe4ff05727dce9ec478c51cf83c491920d51c6f3de3d37cefae930c9b",
+                      "bytes":  37869
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/mtp/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/mtp/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/remote12/native.log",
+                      "sha256":  "5a596a8e5e9aca1ffbc702fff8c0254c92cf2b47288de1e968f4b8ee61960605",
+                      "bytes":  1111
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/remote12/command.json",
+                      "sha256":  "eb19b055902408434bb7d2b3425b265215f66ec51fca70830c46a05d7b630349",
+                      "bytes":  922
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/remote12/observer.log",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/remote12/telemetry.jsonl",
+                      "sha256":  "aa47dd885b391b6f393d65df43925a2336c741a1aa0cbca4c43cb472ede43c1e",
+                      "bytes":  12600
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/remote12/child-result.json",
+                      "sha256":  "976942b4d06087293d2d03c4487655378e5456ed05c4326c00023b741de93c32",
+                      "bytes":  50
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/gate-runs/cache-idle04/remote12/job-attached",
+                      "sha256":  "c33ce4170e5377b81606729c2bac70868baf6d1344fff23fbc82b17915e3ae75",
+                      "bytes":  7
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build.ps1",
+                      "sha256":  "713cd3662007b25917bdc139e14bc31aa68a8680c96c531e6b0acc5484303fe6",
+                      "bytes":  11863
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/native_guard.py",
+                      "sha256":  "ca0830b17aa250f804266e397718333b047763a96d70a03026c694f399825244",
+                      "bytes":  14573
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/qualify_components.py",
+                      "sha256":  "eccacd02074de75545d7fb88def54cdc7fc16130a99d500ea0baf996b625e7bd",
+                      "bytes":  3822
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/build-binding.json",
+                      "sha256":  "b6b3793fa4c42088e214aaeb883ad8dac337966e8acca3caf8fdf6574f6bd71f",
+                      "bytes":  36639
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/conversation_cache_test.exe",
+                      "sha256":  "ab5a4216d19ffbdab2265b5b5c1baaf2570a9150723fdd61d43783e2fffb5724",
+                      "bytes":  201216
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/pool_idle_test.exe",
+                      "sha256":  "a40f7145949f85b057935709bfe462d451ab72e4c8bb32adc274c3068086ade1",
+                      "bytes":  1577472
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/vision_protocol_test.exe",
+                      "sha256":  "81151fbef6d41f7408d3085fb818ee60a4076c9ddd4a8ff652e974410438ba7b",
+                      "bytes":  219136
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/vision_mrope_test.exe",
+                      "sha256":  "ed7f409e342d1c83e91477042ea7c40cc4e0e4df617cdbb81d5f76fed65a6322",
+                      "bytes":  172032
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/mtp_transport_test.exe",
+                      "sha256":  "46216cb34a5285ae67f64982a88a67c30a8c146153a920c59c4497e591352e12",
+                      "bytes":  8918016
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/host_registration_test.exe",
+                      "sha256":  "96b89f059c85eae548e4d51434cba2defcbfdbaf1c4124fde3eb17dfd5d665d9",
+                      "bytes":  232960
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/embedding_cache_test.exe",
+                      "sha256":  "916102af217bbdd2683d022822560bd8cbe91a64201559f94aa0bd92c30da87a",
+                      "bytes":  609792
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/compacted_loader_test.exe",
+                      "sha256":  "935a89d345d4fc5e1cf8a0304563282317887c239e49cd2513d87a6b8faee7c3",
+                      "bytes":  3269632
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/verify_wait_test.exe",
+                      "sha256":  "924a846d72b8adf4fb8d8d7e2a308f1b5d73ebf413e69f760113669913a46da4",
+                      "bytes":  404992
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/mtp_equivalence_test.exe",
+                      "sha256":  "2a53b936c1ef883379ace9f2482e6140fa47c5583dc70bf5fe6306ddc02ccc5a",
+                      "bytes":  10445824
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/remote_experts_test.exe",
+                      "sha256":  "bee2c1de9fcae4af3bd3c951304a63d50a74a856b9bad3dd14721f44fa04c536",
+                      "bytes":  3529728
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/bounded_vision.py",
+                      "sha256":  "a82c4162b31050b94dd873f7ca5e56c953e9534b8b485fae15210d2c3fc5cab4",
+                      "bytes":  13514
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_vision.py",
+                      "sha256":  "e3b3fe2f4f5bfc6024ffe3f72a3ae6821255bd202537074465d1f4747a4a6248",
+                      "bytes":  6555
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_manual.py",
+                      "sha256":  "ff18799957175b0ce711bdd6437c72fe9e87c1fe76ae0fb6c0adb7f0019d6161",
+                      "bytes":  4285
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_output_tokenizer.py",
+                      "sha256":  "0db9379d23358264e1d4f8d9e6f831ab2577b006cf2bc57b4fbc43e4bb6b563a",
+                      "bytes":  3051
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_output_lifecycle.py",
+                      "sha256":  "596ad6431d1f5df6545c32b94d31026191eb493d0754c9d188c44d40ea4b0e62",
+                      "bytes":  4930
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/manual_server.py",
+                      "sha256":  "d62877e5a645e0cce0f52aab9f319fe23621fdd41eb86367d0713899089625eb",
+                      "bytes":  21919
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_cache_protocol.py",
+                      "sha256":  "19567095efd5f053654d40bf972e94e4b330a898f6a8ad64c21f720c5508ba3c",
+                      "bytes":  965
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/manual_bridge.mjs",
+                      "sha256":  "5cd0d1cebdc24f799d29d60565ac4ffd5583660d04b944fcf83c0a8219e6fe81",
+                      "bytes":  2410
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/vision_campaign.py",
+                      "sha256":  "2f10836cdea29c430cd06dee1c877e0b7a84bfb02c7895fee125ae5748265377",
+                      "bytes":  4796
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/vision_guard.py",
+                      "sha256":  "be34136ed40f658023c329cbf58d03fc7dab8ab81c5ee3300e795e16e6d141a6",
+                      "bytes":  8762
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/vision_encoder_probe.py",
+                      "sha256":  "70be03bab6b49256707d81c60aee5527cc528867531c31cbf1eaeca5b7ca543a",
+                      "bytes":  2421
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/prepare_vision.py",
+                      "sha256":  "b20cc07d2263f3624a251da72574b020056334875d9c7ddb29d8e907fae17ea4",
+                      "bytes":  3477
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/pi_route.mjs",
+                      "sha256":  "2df289c418e0ab117ab6c0258a318901787982f6767b7a8c203a1971d8a3cb62",
+                      "bytes":  4206
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/pi_strata.mjs",
+                      "sha256":  "ec461804099ba0b86030f99d103a071c6bf3a034eb9c9813924158c177bfe05d",
+                      "bytes":  2696
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_pi_strata.mjs",
+                      "sha256":  "0e6d114ab4588558b775301fd82d4e2e0b06d934bcbe0c7c989e617454546ede",
+                      "bytes":  1850
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_pi_route.mjs",
+                      "sha256":  "a499d56c8b9f01237e5287fc03ecfeeb09198e50b79b7ad2bd2b4fd1539bdde0",
+                      "bytes":  2293
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_pi_overlay_wsl.mjs",
+                      "sha256":  "e322448c4723dc97d50dd61252576eed103f8f9df0f99d2bd31274b9b3b7c9e9",
+                      "bytes":  2715
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_pi_output_wsl.mjs",
+                      "sha256":  "8aaf60fe9adc76d373336d617cf01dcbca1786e77f022a74537392bdeafddc9e",
+                      "bytes":  3072
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/smoke_pi_vision.py",
+                      "sha256":  "af0987eaa079d84b10faeb9613d21a7eab09b61a85a4b4ae5671160408d93d7d",
+                      "bytes":  3721
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/stop_pi_vision.py",
+                      "sha256":  "3727b11d150ab2b882ec3925b64a305fa03f26deef15477cb4b99787de3580c9",
+                      "bytes":  1029
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/capture_vision_memory.ps1",
+                      "sha256":  "9bb395d87bf7f66406feef8bf8710254f5c5dc75247e58f5113a879ba97223b5",
+                      "bytes":  1903
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/verify_api.py",
+                      "sha256":  "27904f45166d9fc3e8f5af31ca2fef58847aee0e4ddf019cdce96b214583ac90",
+                      "bytes":  2389
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/pi-global-installed.sh",
+                      "sha256":  "fe8a548aa40e8aa6bcf95875fdeaabc4c6ef2b7899a2fff5983963abd1d8a347",
+                      "bytes":  4157
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/pi_global_dispatch.mjs",
+                      "sha256":  "f89caab9b50ac38c66fb56c6caecfee14af49f7f2077b90e5e1952770f8ed59f",
+                      "bytes":  3492
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_pi_global_wrapper_wsl.py",
+                      "sha256":  "ee6dbf8c99b877e5a0d84bca08e353d2da39ced8b71ed69203ccf86d53369d9d",
+                      "bytes":  6021
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_pi_global_dispatch.mjs",
+                      "sha256":  "ba7aec374c5096c2d250ab3abf10910337c81f1cdd8cfc0e566eccdf973c644f",
+                      "bytes":  2718
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/python-gates-1790517092208279900.log",
+                      "sha256":  "2a47fd0f08f3e07704a4e582b5ef2d48f3d0208c42abe3d06153506feb697122",
+                      "bytes":  161
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/native-gates.json",
+                      "sha256":  "2fd31158a0f8f3008a5d38eacbbfbaf284b68423f6751ae99295b3c8ed21df78",
+                      "bytes":  56531
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/vision4096.json",
+                      "sha256":  "9246fbf1117fc770aceca6405cd3aa8708deaf3fbed32714c007687b6a132e04",
+                      "bytes":  2789
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/vision98304.json",
+                      "sha256":  "e752d0af3abf5ea9a553bad99a13aed8cada6fdfb7e22221e43c9d2d3327d9ef",
+                      "bytes":  2790
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/fixtures/alt-red.png",
+                      "sha256":  "e83eaf20079a405d1a42e8491c273fa1abb91e182bff93128347c19720e9adc5",
+                      "bytes":  15831
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/fixtures/blue.png",
+                      "sha256":  "a7102b9adb8f9b7fea63f086d7dc10a9acbb2943e297a30653c85ec27a79f021",
+                      "bytes":  16270
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/fixtures/max.png",
+                      "sha256":  "8572ef137ceb582916b1a56da91e07920e8382543ea456f23a9f8560f8df0fa6",
+                      "bytes":  16915
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/fixtures/red.png",
+                      "sha256":  "6eae0d090ac12514cdc5ef58cef9b33c5f58eb4a6477ee06efabc9e33f9a438d",
+                      "bytes":  15325
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-4k-smoke/result.json",
+                      "sha256":  "55394f14177c60351202a8ff134fd8776f1091f1be1c5724fdfa7bcbcb3a7aeb",
+                      "bytes":  3621
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-4k-smoke/probe.json",
+                      "sha256":  "7106014257a914d0711ff98483ec9e32e7cc6e37e1774da5d1ebb5f6a722bfd6",
+                      "bytes":  1609
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-4k-smoke/timings.jsonl",
+                      "sha256":  "1337eb183914416e8d98e7b7ea45845d0c46af171aee5834c8722c01ae031fe4",
+                      "bytes":  1324
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-98k-smoke/result.json",
+                      "sha256":  "8cfb16a48c1da88d8b4058ede45d44d2ec19acfa5bb191393753a0a1ed89b617",
+                      "bytes":  3619
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-98k-smoke/probe.json",
+                      "sha256":  "091852a48765e768dc310958042248ea638de0081d4217cbc02c5d4e47dc761a",
+                      "bytes":  1610
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/runs/update-r2-98k-smoke/timings.jsonl",
+                      "sha256":  "831b7f61136a8f614b09302c99935e8cb327b46170dd088cc82a5c2c01e4509a",
+                      "bytes":  1323
+                  },
+                  {
                       "path":  "research/qwen-strata-agent-20260927/manual/serve_only_server.py",
                       "sha256":  "879c40924643b621c7ebc9404e9cc0fcd80d98f6cb0fe75ff034b59dd1d6da5a",
                       "bytes":  19301
@@ -2005,6 +2691,46 @@
                       "path":  "research/qwen-strata-agent-20260927/manual/serve-only-tests-1790507925411218600.log",
                       "sha256":  "b8ac90b754d62a9f669118b20ceca6befd2d3f1cff9035612f50e85434db325a",
                       "bytes":  391
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/serve_only_server.py",
+                      "sha256":  "95e94eb94c3ca5d16fe4cf7fbe77a6fd52cdc199601c55c5d56749c7e3bbbe8b",
+                      "bytes":  19891
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/serve_only_guard.py",
+                      "sha256":  "534c07eac8e94e837399da5cd535514d06e5f6a5c04b678a3719efbf69214d85",
+                      "bytes":  5468
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/serve_only_derivation.py",
+                      "sha256":  "a815b1b305ec4a962d05d59b77371f09bc90406d39b9bcb3d6172b5f356a9234",
+                      "bytes":  2146
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/test_serve_only.py",
+                      "sha256":  "0d2e349edf7ad3fd6f47fb9e2bf20d2c9745aee5273adcd6c36c5be1c883bc75",
+                      "bytes":  5297
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/prepare_serve_only.py",
+                      "sha256":  "776773bc3b19c46371c0d5afbee8b0801db96fc5d712eca3282c857edbd70d19",
+                      "bytes":  1319
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/vision_user_launcher.py",
+                      "sha256":  "979f528776dbb674bcb76b848e9b089a3bed730844662a9526a6bf1e4d827bf9",
+                      "bytes":  4727
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/manual_guard.py",
+                      "sha256":  "706e18c7a0308f42472474049dc5f5d09ae7495b02a7f72d495c19c3c689a979",
+                      "bytes":  5655
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/manual/serve-only-tests-1790517092968323000.log",
+                      "sha256":  "2122acd4dc33d7dc2d43d256e91417fa00662e57223107851b3155abd4b31d18",
+                      "bytes":  515
                   },
                   {
                       "path":  "research/qwen-strata-agent-20260927/build/compacted_loader_test.exe",
@@ -2065,6 +2791,26 @@
                       "path":  "research/qwen-strata-stock-20260926/official-engine/strata.exe",
                       "sha256":  "e3684cc5c6ff51cfff3c4ebc864be6fa6c7179ae98176319f3da042cc1dd0c97",
                       "bytes":  22561280
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/compile_commands.json",
+                      "sha256":  "b2ec6ec4f839caa357ed26767ab95f8c7bb53723fa86338df095e2ddf6d3ff3f",
+                      "bytes":  40238
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/mtp_profile_test.exe",
+                      "sha256":  "d98c02a560ff2aff797b1aa69d76eee83368c358408462ada52c95935143b7af",
+                      "bytes":  10442240
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/remote_experts_profile_test.exe",
+                      "sha256":  "af364b220eedf384cefa1653c053e79edc4c401a94bc0931815e7bf6f3f3a818",
+                      "bytes":  2820608
+                  },
+                  {
+                      "path":  "research/qwen-strata-update-20260927/build/strata.exe",
+                      "sha256":  "2e630a0b125a0b4f2be300678216d8aca2e086d1e5c2d9cb54855b55685c4c77",
+                      "bytes":  12026368
                   }
               ],
     "schema":  "strata-runtime-archive/v1",
@@ -2153,12 +2899,6 @@
                                       "name":  "research/qwen-strata-20260926/mtp/rt/experts.bin",
                                       "reason":  "model-derived/external weight or oversized data",
                                       "bytes":  707788800
-                                  },
-                                  {
-                                      "sha256":  "98ffde98f5388b518d8581b2983973d785f20f00a21e5e82393b38f4188e094c",
-                                      "name":  "research/qwen-strata-stock-20260926/official-engine/strata-vision.exe",
-                                      "reason":  "model-derived/external weight or oversized data",
-                                      "bytes":  90725376
                                   },
                                   {
                                       "sha256":  "b2e9b5e4a44c107f8867e67dbf09b607fd99ae33c1a97a60a6720aeb252a9dad",

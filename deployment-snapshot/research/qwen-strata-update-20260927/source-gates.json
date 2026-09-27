@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "scope": "Bounded CPU vision adapter/unit tests; parent text gates retained separately",
+  "parent_gates_sha256": "c57dec1401fecf2a8817ee2bcfb998f80d22cf81e61c0dbc634fcffa2a88312a",
+  "bound_files": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\bounded_vision.py",
+      "sha256": "a82c4162b31050b94dd873f7ca5e56c953e9534b8b485fae15210d2c3fc5cab4"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_vision.py",
+      "sha256": "e3b3fe2f4f5bfc6024ffe3f72a3ae6821255bd202537074465d1f4747a4a6248"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_manual.py",
+      "sha256": "ff18799957175b0ce711bdd6437c72fe9e87c1fe76ae0fb6c0adb7f0019d6161"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_output_tokenizer.py",
+      "sha256": "0db9379d23358264e1d4f8d9e6f831ab2577b006cf2bc57b4fbc43e4bb6b563a"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_output_lifecycle.py",
+      "sha256": "596ad6431d1f5df6545c32b94d31026191eb493d0754c9d188c44d40ea4b0e62"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\manual_server.py",
+      "sha256": "d62877e5a645e0cce0f52aab9f319fe23621fdd41eb86367d0713899089625eb"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\cache_protocol.py",
+      "sha256": "2830516dee1ee9d0e3aca30ee5b42a0ff419771daf44ee05b88f485d62b82100"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_cache_protocol.py",
+      "sha256": "19567095efd5f053654d40bf972e94e4b330a898f6a8ad64c21f720c5508ba3c"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\manual_bridge.mjs",
+      "sha256": "5cd0d1cebdc24f799d29d60565ac4ffd5583660d04b944fcf83c0a8219e6fe81"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\vision_campaign.py",
+      "sha256": "2f10836cdea29c430cd06dee1c877e0b7a84bfb02c7895fee125ae5748265377"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\vision_guard.py",
+      "sha256": "be34136ed40f658023c329cbf58d03fc7dab8ab81c5ee3300e795e16e6d141a6"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\vision_encoder_probe.py",
+      "sha256": "70be03bab6b49256707d81c60aee5527cc528867531c31cbf1eaeca5b7ca543a"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\prepare_vision.py",
+      "sha256": "b20cc07d2263f3624a251da72574b020056334875d9c7ddb29d8e907fae17ea4"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\pi_route.mjs",
+      "sha256": "2df289c418e0ab117ab6c0258a318901787982f6767b7a8c203a1971d8a3cb62"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\pi_strata.mjs",
+      "sha256": "ec461804099ba0b86030f99d103a071c6bf3a034eb9c9813924158c177bfe05d"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_pi_strata.mjs",
+      "sha256": "0e6d114ab4588558b775301fd82d4e2e0b06d934bcbe0c7c989e617454546ede"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_pi_route.mjs",
+      "sha256": "a499d56c8b9f01237e5287fc03ecfeeb09198e50b79b7ad2bd2b4fd1539bdde0"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_pi_overlay_wsl.mjs",
+      "sha256": "e322448c4723dc97d50dd61252576eed103f8f9df0f99d2bd31274b9b3b7c9e9"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_pi_output_wsl.mjs",
+      "sha256": "8aaf60fe9adc76d373336d617cf01dcbca1786e77f022a74537392bdeafddc9e"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\smoke_pi_vision.py",
+      "sha256": "af0987eaa079d84b10faeb9613d21a7eab09b61a85a4b4ae5671160408d93d7d"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\stop_pi_vision.py",
+      "sha256": "3727b11d150ab2b882ec3925b64a305fa03f26deef15477cb4b99787de3580c9"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\capture_vision_memory.ps1",
+      "sha256": "9bb395d87bf7f66406feef8bf8710254f5c5dc75247e58f5113a879ba97223b5"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\verify_api.py",
+      "sha256": "27904f45166d9fc3e8f5af31ca2fef58847aee0e4ddf019cdce96b214583ac90"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\pi-global-installed.sh",
+      "sha256": "fe8a548aa40e8aa6bcf95875fdeaabc4c6ef2b7899a2fff5983963abd1d8a347"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\pi_global_dispatch.mjs",
+      "sha256": "f89caab9b50ac38c66fb56c6caecfee14af49f7f2077b90e5e1952770f8ed59f"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_pi_global_wrapper_wsl.py",
+      "sha256": "ee6dbf8c99b877e5a0d84bca08e353d2da39ced8b71ed69203ccf86d53369d9d"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\test_pi_global_dispatch.mjs",
+      "sha256": "ba7aec374c5096c2d250ab3abf10910337c81f1cdd8cfc0e566eccdf973c644f"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-stock-20260926\\official-engine\\strata-vision.exe",
+      "sha256": "98ffde98f5388b518d8581b2983973d785f20f00a21e5e82393b38f4188e094c"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\models\\qwen38-vision\\mmproj-Qwen3.8-Flash-Next-Q8_0.gguf",
+      "sha256": "b2e9b5e4a44c107f8867e67dbf09b607fd99ae33c1a97a60a6720aeb252a9dad"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\python-gates-1790517092208279900.log",
+      "sha256": "2a47fd0f08f3e07704a4e582b5ef2d48f3d0208c42abe3d06153506feb697122"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\native-gates.json",
+      "sha256": "2fd31158a0f8f3008a5d38eacbbfbaf284b68423f6751ae99295b3c8ed21df78"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\vision4096.json",
+      "sha256": "9246fbf1117fc770aceca6405cd3aa8708deaf3fbed32714c007687b6a132e04"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\vision98304.json",
+      "sha256": "e752d0af3abf5ea9a553bad99a13aed8cada6fdfb7e22221e43c9d2d3327d9ef"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\fixtures\\alt-red.png",
+      "sha256": "e83eaf20079a405d1a42e8491c273fa1abb91e182bff93128347c19720e9adc5"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\fixtures\\blue.png",
+      "sha256": "a7102b9adb8f9b7fea63f086d7dc10a9acbb2943e297a30653c85ec27a79f021"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\fixtures\\max.png",
+      "sha256": "8572ef137ceb582916b1a56da91e07920e8382543ea456f23a9f8560f8df0fa6"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\fixtures\\red.png",
+      "sha256": "6eae0d090ac12514cdc5ef58cef9b33c5f58eb4a6477ee06efabc9e33f9a438d"
+    }
+  ]
+}

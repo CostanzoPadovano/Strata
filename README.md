@@ -1,15 +1,20 @@
 # Strata: Windows dual RTX 5060 Ti / 64 GiB experimental fork
 
+Frozen working cache/idle + vision build:
+**[CACHE-IDLE.md](CACHE-IDLE.md)**. The owner reports successful normal Pi use
+including `/compact` on September 27, 2026. No further tuning or inference tests
+were run to publish this snapshot. Native SHA256 begins `2e630a0b125a0b4f`.
+
 Local hardware, honest measured benchmarks, limitations and recovery:
 **[LOCAL-PC.md](LOCAL-PC.md)** · **[RESTORE.md](RESTORE.md)**.
 
-Measured manual Pi workload: **188.609 tok/s prefill / 38.138 tok/s decode**,
+Historical pre-cache manual Pi workload: **188.609 tok/s prefill / 38.138 tok/s decode**,
 10 requests, prompts 3394-20639 tokens, thinking included. Separate experimental
 4K lane: 346.080 / 50.920 tok/s. These are different profiles/workloads.
 Synthetic tool/edit/compaction continuity was tested at occupied ~95K context;
 organic 98K stability and cache quality equivalence remain unverified.
 
-The root is the final local vision/static-owner source snapshot; the exact
+The root is the frozen local cache/idle/vision/static-owner source snapshot; the exact
 historical deployment and guard/adapter tests live in `deployment-snapshot/`.
 The normal local BAT starts only the server and prints native timings; global
 WSL Pi supports other models and can open with Strata offline.

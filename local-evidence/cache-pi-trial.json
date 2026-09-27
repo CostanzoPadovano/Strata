@@ -1,0 +1,55 @@
+{
+    "source_attestation_sha256":  "4e0c2fa5a861294eb2d3cdf1576c68edd9c27c5312282c64493f871d06f87395",
+    "checks":  {
+                   "exit0":  true,
+                   "same_provider_model":  true,
+                   "config_unchanged":  true,
+                   "exact_gateway_candidate":  true,
+                   "payload_nonce_exact_route":  true,
+                   "candidate_timings_correlated":  true,
+                   "actual_read_text":  true,
+                   "final_stop":  true,
+                   "no_api_error":  true,
+                   "read_two_images":  true,
+                   "correct_visual_text":  true
+               },
+    "source_timings_sha256":  "c1c86d7988b4fdca057e06d12469f45845f22cf985f05f33c481eeea721200fb",
+    "engine_sha256":  "2e630a0b125a0b4f2be300678216d8aca2e086d1e5c2d9cb54855b55685c4c77",
+    "date":  "2026-09-27",
+    "workload":  "Two successful finite agent requests, synthetic images/file, warm cache/retry; not a paired benchmark",
+    "rows":  [
+                 {
+                     "generated":  139,
+                     "prompt_tokens":  1656,
+                     "prompt_ms":  536.8,
+                     "decode_ms":  3481.4,
+                     "finish":  "stop",
+                     "draft_accepted":  94,
+                     "draft_offered":  120,
+                     "prompt_reused":  1651,
+                     "fresh_prompt_tokens":  5,
+                     "prefill_processed_tokens":  4
+                 },
+                 {
+                     "generated":  263,
+                     "prompt_tokens":  2889,
+                     "prompt_ms":  6800.8,
+                     "decode_ms":  6503.9,
+                     "finish":  "stop",
+                     "draft_accepted":  150,
+                     "draft_offered":  238,
+                     "prompt_reused":  1794,
+                     "fresh_prompt_tokens":  1095,
+                     "prefill_processed_tokens":  1094
+                 }
+             ],
+    "schema":  "strata-cache-pi-numeric/v1",
+    "contains_prompts":  false,
+    "user_confirmation":  {
+                              "date":  "2026-09-27",
+                              "pi_compact":  true,
+                              "context_length_measured":  false,
+                              "successful_use":  true,
+                              "evidence_kind":  "user report, not instrumented benchmark"
+                          }
+}

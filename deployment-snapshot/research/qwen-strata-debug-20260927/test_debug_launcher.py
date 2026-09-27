@@ -15,6 +15,8 @@ class LauncherTests(unittest.TestCase):
         cls.temp_root.mkdir(parents=True, exist_ok=True)
 
     def test_same_guard_and_no_unsafe_flags(self):
+        self.assertEqual(target.GUARD, target.VISION / "manual/serve_only_guard.py")
+        self.assertEqual(target.VISION.name, "qwen-strata-update-20260927")
         normal = target.guard_command("debug-fixture")
         self.assertEqual(normal[1], str(target.GUARD))
         self.assertEqual(normal[2], "manual")

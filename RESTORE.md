@@ -8,9 +8,12 @@ validation on another PC, relocated paths, new binaries, drivers or weights.**
 ## 1. Retrieve the pinned source and binaries
 
 Clone `https://github.com/CostanzoPadovano/Strata.git`, then check out branch
-`codex/windows-dual5060ti-98k` or tag `local-dual5060ti-20260927`.
+`codex/windows-dual5060ti-98k` or frozen tag `local-dual5060ti-cache-idle-20260927`.
 Run `python archive-tools/verify_archive.py` before using the snapshot.
-The GitHub release with that tag contains `windows-runtime.zip` and its SHA256:
+After downloading the runtime asset, also run
+`python archive-tools/verify_cache_release.py <path-to-windows-cache-runtime.zip>`
+to verify the current engine, encoder, numeric evidence and every ZIP member.
+The GitHub release with that tag contains `windows-cache-runtime.zip` and its SHA256:
 the original Windows engine/test binaries and selected bound proof files,
 **not** model weights or a virtual environment. The accompanying asset manifest
 enumerates every byte/checksum. Never run executables from an unverified copy.
@@ -33,7 +36,8 @@ If rebuilding: MSVC14.51.36231 / Visual Studio18 Community, Ninja/CMake and
 CUDA13.3.73. Local build scripts retain exact paths (`E:\Project_ANTIREZ-tools\cuda-13.3.1\toolkit`)
 and pinned ggml revision `3cf03257f219afbe7334045ff7c6a06ac68c627d`.
 Restore/clone the dependency at `research/qwen-strata-stock-20260926/tests-build/_deps/strata_llamacpp-src`.
-`research/qwen-strata-vision-20260927/build.ps1` owns the current build;
+`research/qwen-strata-update-20260927/build.ps1` owns the current cache build;
+`research/qwen-strata-vision-20260927/build.ps1` owns the previous F107 build;
 `research/qwen-strata-agent-20260927/build.ps1` owns the older text build.
 Do not compile the root fork and then substitute its new executable into old
 admissions. Byte-identical binaries are not guaranteed across rebuilds.
@@ -87,7 +91,7 @@ same finite memory/thermal bounds. Missing assets or changed identity must
 stop. The normal BAT never automatically runs qualification tests.
 
 The WSL wrapper source is
-`research/qwen-strata-agent-20260927/manual/pi-global-installed.sh`.
+`research/qwen-strata-update-20260927/manual/pi-global-installed.sh`.
 It also depends on the pre-existing `~/.local/bin/pi-qwen` wrapper and other
 TEST_QWEN provider helpers. The release archives the wrapper source, not
 `~/.pi/agent/models.json`, settings, auth or sessions. Review the paths and
@@ -100,9 +104,24 @@ are outside this Strata fork, and must be restored from their own projects.
 
 After fresh/current gates pass, use `run_qwen38_98k_ista_strata_server.bat --check`
 first. The normal BAT starts only the server and prints real per-request timing.
-Debug BAT is separate and may perform qualification prompts. Wait for PRONTO,
+Debug BAT records metrics using the same current serve-only guard, without
+startup qualification prompts. Separate `qualify_*` scripts are explicit tests.
+Wait for PRONTO,
 then reopen Pi; same identity `local-qwen38/qwen3.8-flash-next-local`, xhigh.
 Always keep the memory/commit/thermal/lifetime guards.
+
+For current instructions read `research/qwen-strata-update-20260927/UPDATE.md`
+and [CACHE-IDLE.md](CACHE-IDLE.md), not the older copied `install-wsl*.sh` scripts.
+Those old installers and old manual README sections are historical evidence.
+On the original unchanged PC, the archived current wrapper is the installed
+one (SHA256 `fe8a548aa40e8aa6bcf95875fdeaabc4c6ef2b7899a2fff5983963abd1d8a347`).
+Do not reinstall it or alter other providers just to inspect this archive.
+
+Rollback: the old tag/release `local-dual5060ti-20260927` remains intact, with
+F107 native SHA256 `f1072687e794aa5958f121c8967983947b5ea1322fa336c60688cfdc7736742f`.
+The project BAT `run_qwen38_98k_ista_strata_server.before-cache-20260927.bat`
+is the preserved previous launcher. The current Pi route also recognizes F107.
+Local WSL wrapper backup: `~/.local/bin/pi.before-cache-idle-20260927.bak`.
 
 ## Exclusions and coverage
 

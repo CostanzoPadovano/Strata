@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "context": 98304,
+  "engine_sha256": "2e630a0b125a0b4f2be300678216d8aca2e086d1e5c2d9cb54855b55685c4c77",
+  "source_gates_sha256": "bdcde0c94faec4ead733fd92ebb3d19a8ae469d7c1a3feca9ee2ab68b6532e82",
+  "config_sha256": "e752d0af3abf5ea9a553bad99a13aed8cada6fdfb7e22221e43c9d2d3327d9ef",
+  "scope": "finite cache/fresh greedy branches, EOS/length/cancel; not universal numeric/quality proof",
+  "bound_files": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-r2-98k-cache\\result.json",
+      "sha256": "0b2ab1df8be60084bc25c1858539cbb3f00b28bbe7316f7c13fd9f7f17b6b7e5"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-r2-98k-cache\\probe.json",
+      "sha256": "379c993da1f865fc4bc9577c9479abcdd77325f7543733cab9932feeb940dac0"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-r2-98k-cache\\timings.jsonl",
+      "sha256": "611dfbb99a2b3cea0f475da871ff116da6417c038e371710a286541be5850a05"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-r2-98k-cache\\telemetry.jsonl",
+      "sha256": "7d718e1c5dbde2d136ae4f97eaabb8df16fc765a81e1b4cc98d1c93a7ffd8a23"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\cache_guard.py",
+      "sha256": "72200e7a81cba048c8478499e4d19e9ee4f583048642b0ab76d9daa48a5c13d6"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\cache_probe.py",
+      "sha256": "ced7b50061491b1a7df648e35f169fd82f89ca5b9aba0c1cb21e4e51c5744b13"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\manual\\cache_protocol.py",
+      "sha256": "2830516dee1ee9d0e3aca30ee5b42a0ff419771daf44ee05b88f485d62b82100"
+    }
+  ]
+}

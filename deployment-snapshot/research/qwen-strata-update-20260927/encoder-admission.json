@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source_gates_sha256": "bdcde0c94faec4ead733fd92ebb3d19a8ae469d7c1a3feca9ee2ab68b6532e82",
+  "bound_files": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-encoder03\\result.json",
+      "sha256": "d3c3afe61064002d5d26bba5bc30f3782ad586a7b94d184a759500c16a950f63"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-encoder03\\probe.json",
+      "sha256": "3525d423c40b34825773ae35cdb4db9092cf4a9783c7471f061f23d393fd9145"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-encoder03\\encoder.log",
+      "sha256": "778ced8af7675a5a2c7ca944f5a3726340e079207251e24e70c3f1dbcf699392"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-encoder03\\telemetry.jsonl",
+      "sha256": "e391a6aa473c293ae3effc521c1a46726e869233d576009837b6d2f09e3a93fd"
+    }
+  ]
+}

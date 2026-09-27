@@ -1,4 +1,4 @@
-"""Read-only bounded diagnostics around the unchanged, gated vision guardian."""
+"""Read-only bounded diagnostics around the same gated, serve-only cache/vision server."""
 from __future__ import annotations
 
 import argparse
@@ -13,8 +13,8 @@ import time
 
 HERE = Path(__file__).resolve().parent
 PROJECT = HERE.parent.parent
-VISION = PROJECT / "research/qwen-strata-vision-20260927"
-GUARD = PROJECT / "research/qwen-strata-agent-20260927/manual/vision_user_launcher.py"
+VISION = PROJECT / "research/qwen-strata-update-20260927"
+GUARD = VISION / "manual/serve_only_guard.py"
 SAMPLER = HERE / "debug_metrics.py"
 MAX_RECORD = 64 * 1024
 GUARD_SECONDS = 14400

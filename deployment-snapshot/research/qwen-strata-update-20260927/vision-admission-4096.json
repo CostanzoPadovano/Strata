@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "context": 4096,
+  "source_gates_sha256": "bdcde0c94faec4ead733fd92ebb3d19a8ae469d7c1a3feca9ee2ab68b6532e82",
+  "config_sha256": "9246fbf1117fc770aceca6405cd3aa8708deaf3fbed32714c007687b6a132e04",
+  "bound_files": [
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-r2-4k-smoke\\result.json",
+      "sha256": "55394f14177c60351202a8ff134fd8776f1091f1be1c5724fdfa7bcbcb3a7aeb"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-r2-4k-smoke\\probe.json",
+      "sha256": "7106014257a914d0711ff98483ec9e32e7cc6e37e1774da5d1ebb5f6a722bfd6"
+    },
+    {
+      "path": "C:\\Users\\costa\\Documents\\Project_ANTIREZ\\research\\qwen-strata-update-20260927\\runs\\update-r2-4k-smoke\\timings.jsonl",
+      "sha256": "1337eb183914416e8d98e7b7ea45845d0c46af171aee5834c8722c01ae031fe4"
+    }
+  ]
+}

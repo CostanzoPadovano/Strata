@@ -1,0 +1,35 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {pathToFileURL} from 'node:url';
+const install='/home/costapad/.nvm/versions/node/v22.23.0/lib/node_modules/@earendil-works/pi-coding-agent';
+const {ModelRuntime}=await import(pathToFileURL(`${install}/dist/core/model-runtime.js`));
+const {AuthStorage}=await import(pathToFileURL(`${install}/dist/core/auth-storage.js`));
+const {parseArgs}=await import(pathToFileURL(`${install}/dist/cli/args.js`));
+assert.equal(parseArgs(['--thinking','xhigh','--thinking','low']).thinking,'low');
+const compat=pathToFileURL(`${install}/node_modules/@earendil-works/pi-ai/dist/compat.js`).href;
+const source=fs.readFileSync(new URL('./pi_strata.mjs',import.meta.url),'utf8').replace("'@earendil-works/pi-ai/compat'",JSON.stringify(compat));
+const extension=(await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`)).default;
+const paths=['/home/costapad/.pi/agent/models.json','/home/costapad/.pi/agent/settings.json'];
+const bytes=paths.map(p=>fs.readFileSync(p));
+const rt=await ModelRuntime.create({modelsPath:paths[0],credentials:AuthStorage.inMemory(),allowModelNetwork:false,refreshOnCreate:false});
+const other=JSON.stringify(rt.getModels().filter(m=>m.provider!=='local-qwen38'));
+const original=JSON.stringify(rt.getModel('local-qwen38','qwen3.8-flash-next-local'));
+let registration;
+process.env.ISTA_STRATA_BASE_URL='http://172.19.48.1:8038/v1';
+for(const capability of ['0','1']){
+process.env.ISTA_STRATA_VISION=capability;
+extension({registerProvider:(name,config)=>{registration={name,config};rt.registerProvider(name,config);},on:()=>{}});
+assert.equal(registration.name,'local-qwen38');
+const m=rt.getModel('local-qwen38','qwen3.8-flash-next-local');
+assert.equal(m.maxTokens,98296);assert.equal(m.contextWindow,98304);
+assert.equal(m.baseUrl,process.env.ISTA_STRATA_BASE_URL);assert.equal(m.api,'openai-completions');
+assert.deepEqual(m.input,capability==='1'?['text','image']:['text']);assert.equal(m.thinkingLevelMap.xhigh,'xhigh');
+assert.equal(m.compat.requiresReasoningContentOnAssistantMessages,true);
+assert.equal(m.compat.thinkingFormat,'reasoning_effort');
+assert.equal(typeof registration.config.streamSimple,'function');
+assert.equal(JSON.stringify(rt.getModels().filter(m=>m.provider!=='local-qwen38')),other);
+rt.unregisterProvider('local-qwen38');
+assert.equal(JSON.stringify(rt.getModel('local-qwen38','qwen3.8-flash-next-local')),original);
+}
+paths.forEach((p,i)=>assert.equal(fs.readFileSync(p).equals(bytes[i]),true));
+console.log('Installed Pi0.87.1: same-ID text/vision overlays + explicit thinking override; other models/settings unchanged; legacy restored in memory. No LLM/API calls.');
